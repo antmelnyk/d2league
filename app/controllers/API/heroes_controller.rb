@@ -5,7 +5,8 @@ class API::HeroesController < ApplicationController
       heroes: [
         name: 'Puck',
         roles: [
-          initiator: true
+          initiator: true,
+          nuker: true
         ]
       ]
     }.to_json
