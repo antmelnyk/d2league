@@ -1,17 +1,24 @@
 import React from "react"
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { Provider } from "react-redux"
 
-import Hero from './Hero'
+import Home from "./Home"
+import Heroes from "./Heroes"
+
+import configureStore from "../configureStore"
+const store = configureStore();
 
 class App extends React.Component {
   render () {
     return (
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" render={() => ("Main")} />
-          <Route path="/heroes" render={() => <Hero name="Pudge" roles={['initiator', 'nuker', 'durable']}/>} />
-        </Switch>
-      </BrowserRouter>
+      <Provider store={store}>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/" render={() => <Home />} />
+            <Route path="/suggest" render={() => <Heroes />} />
+          </Switch>
+        </BrowserRouter>
+      </Provider>
     );
   }
 }
