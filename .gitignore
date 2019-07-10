@@ -37,4 +37,4 @@ yarn-debug.log*
 # Scrapping results
 /lib/assets/
 /lib/dota_heroes.json
-/lib/lol_heroes.json
+/lib/league_champs.json
