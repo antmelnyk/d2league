@@ -59,19 +59,19 @@ class Scrapper
     page.css('.champion-grid li').each_with_index do |champ, index|
       champ_data = { id: index, abilities: [] }
       browser.goto(URI.join(@url, champ.at_css('a')[:href]).to_s)
-      champ_data[:name] = browser.div(id: "champ_header").h1.wait_until(&:present?).text
+      champ_data[:name] = wait(browser.div(id: "champ_header").h1).text
 
       %w(P Q W E R).each do |skill|
         ability = {}
 
         begin
-          ability[:name] = browser.div(id: "#{skill}Name").h3.wait_until(&:present?).text
+          ability[:name] = wait(browser.div(id: "#{skill}Name").h3).text
         rescue
           ability[:name] = ""
         end
 
         begin
-          ability[:description] = browser.div(id: "#{skill}Data").p(class: "spell-description").wait_until(&:present?).text
+          ability[:description] = wait(browser.div(id: "#{skill}Data").p(class: "spell-description")).text
         rescue
           ability[:description] = ""
         end
@@ -101,7 +101,11 @@ class Scrapper
       f.write(@json_data)
     end
   end
+
+  def wait(el)
+    el.wait_until { |el| el.present? && el.text != 'Loading...' }
+  end
 end
 
-Scrapper.new(DOTA_HEROES_URL).parse
-# Scrapper.new(LEAGUE_CHAMPS_URL).parse
+# Scrapper.new(DOTA_HEROES_URL).parse
+Scrapper.new(LEAGUE_CHAMPS_URL).parse
