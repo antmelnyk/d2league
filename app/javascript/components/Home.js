@@ -5,14 +5,17 @@ class Home extends React.Component {
   render () {
     return (
       <main className="welcome">
-        <h1>From Dota 2 to</h1>
-        <img src="/assets/lol-logo.png"/>
-        <h2>Get your champion suggestions based on your Dota heroes</h2>
+
+        <h1>From <img src="/assets/dota-logo.png" alt="Dota 2" className="dota-logo" /> to</h1>
+        <img src="/assets/league-logo.png" alt="League of Legends" className="league-logo" />
+        <h2>Get your champion suggestions based on your Dota heroes. Learn info about different aspects of game.</h2>
+
         <Link to="/suggestion">
-          <button className="suggestion-link" type="button">
+          <button className="button link-suggestion" type="button">
             Suggest me Champions
           </button>
         </Link>
+
         <section className="features-wrapper">
           <Link to="/roles" className="feature border-gold">
             <div className="feature__title">Roles</div>
@@ -35,6 +38,7 @@ class Home extends React.Component {
             <div className="feature__description">Tired from +25/-25 points for game and Shadow Amulet afking? League has much more strict ban policy and legit ranked system with Leagues and promotion games.</div>
           </Link>
         </section>
+
       </main>
     );
   }

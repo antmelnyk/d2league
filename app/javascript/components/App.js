@@ -12,12 +12,14 @@ class App extends React.Component {
   render () {
     return (
       <Provider store={store}>
-        <BrowserRouter>
-          <Switch>
-            <Route exact path="/" render={() => <Home />} />
-            <Route path="/suggestion" render={() => <Suggestion />} />
-          </Switch>
-        </BrowserRouter>
+        <main className="app-wrapper">
+          <BrowserRouter>
+            <Switch>
+              <Route exact path="/" render={() => <Home />} />
+              <Route path="/suggestion" render={() => <Suggestion />} />
+            </Switch>
+          </BrowserRouter>
+        </main>
       </Provider>
     );
   }

@@ -1,9 +1,36 @@
 body
   background-color: #0a0a0c
-  background-image: image-url("welcome-bg.png") 
+  background-image: image-url("bg.jpg") 
+  background-size: cover
   color: white
   font-family: 'SpiegelRegular'
   margin: 0
+  
+  > *
+    box-sizing: border-box
+
+.app-wrapper
+  min-height: 100vh
+  background: rgba(0, 0, 0, .7)
+
+.container
+  max-width: 1200px
+  margin: 0 auto
+  padding: 0 15px
+
+.button
+  padding: 15px
+  border: 3px solid transparent
+  border-image: linear-gradient(to bottom, #08abac 0, #01698b 100%)
+  border-image-slice: 1
+  background: #1e2328
+  color: #f0e6d2
+  font-size: 18px
+  cursor: pointer
+  transition: 0.25s ease
+  &:hover
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .7)
+    background: #13171c
 
 .border-gold
   border: 3px solid transparent

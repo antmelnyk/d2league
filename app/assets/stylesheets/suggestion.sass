@@ -1,13 +1,27 @@
+.suggestion
+  display: flex
+
 .heroes
   display: flex
   flex-wrap: wrap
+  margin: 0
+  padding: 0
+  max-width: 480px
 
   .hero
     list-style-type: none
 
     &__image
+      left: 0
+      top: 0
       width: 50px
       height: 50px
       border: 2px solid rgba(255, 255, 255, .5)
       border-radius: 50px
       margin: 0 5px 5px 0
+      transition: 0.15s ease
+      cursor: pointer
+      &:hover
+        transform: scale(1.5)
+
+.suggestion-results

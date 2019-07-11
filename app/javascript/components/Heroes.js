@@ -18,7 +18,7 @@ class Heroes extends React.Component {
           <li className="hero" key={hero.name}>
             <LazyLoadImage
               className="hero__image"
-              alt={hero.name}
+              title={hero.name}
               effect="opacity"
               src={`assets/dota_heroes/${hero.name}.png`} />
           </li>
@@ -26,9 +26,9 @@ class Heroes extends React.Component {
       </ul>;
 
     return (
-      <React.Fragment>
+      <div className="heroes-container">
         {heroes}
-      </React.Fragment>
+      </div>
     );
   }
 }

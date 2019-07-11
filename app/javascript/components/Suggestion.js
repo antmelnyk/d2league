@@ -20,13 +20,16 @@ class Suggestion extends React.Component {
 
   render () {
     return (
-      <div>
-        <Heroes />
-        <SuggestionResults />
-        <button onClick={this.handleSuggestion} className="suggest" type="button">
+      <React.Fragment>
+        <h1>Select your Dota 2 heroes on the left and click here:</h1>
+        <button onClick={this.props.handleSuggestion} className="button action-suggest-champions" type="button">
           Suggest Champions
         </button>
-      </div>
+        <div className="suggestion container">
+          <Heroes handleSuggestion={this.handleSuggestion} />
+          <SuggestionResults />
+        </div>
+      </React.Fragment>
     );
   }
 }
