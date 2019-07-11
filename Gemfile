@@ -11,6 +11,7 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'react-rails'
+gem 'irb'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
