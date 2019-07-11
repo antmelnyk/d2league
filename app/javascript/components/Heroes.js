@@ -4,6 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 import { fetchHeroes } from "../actions/heroes"
+import Spinner from "./Spinner";
 
 class Heroes extends React.Component {
 
@@ -25,9 +26,10 @@ class Heroes extends React.Component {
         ))}
       </ul>;
 
+
     return (
       <div className="heroes-container">
-        {heroes}
+        {this.props.isFetching ? <Spinner /> : heroes }
       </div>
     );
   }
