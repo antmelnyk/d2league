@@ -3,9 +3,9 @@ class CreateSimilarities < ActiveRecord::Migration[6.0]
     create_table :similarities do |t|
       t.integer :hero_id
       t.integer :champion_id
-      t.boolean :role
-      t.boolean :skills
-      t.boolean :theme
+      t.boolean :role, default: false
+      t.boolean :skills, default: false
+      t.boolean :theme, default: false
       t.string :description
 
       t.timestamps
