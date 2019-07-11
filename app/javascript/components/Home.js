@@ -8,8 +8,8 @@ class Home extends React.Component {
         <h1>From Dota 2 to</h1>
         <img src="/assets/lol-logo.png"/>
         <h2>Get your champion suggestions based on your Dota heroes</h2>
-        <Link to="/suggest">
-          <button className="suggest-button" type="button">
+        <Link to="/suggestion">
+          <button className="suggestion-link" type="button">
             Suggest me Champions
           </button>
         </Link>

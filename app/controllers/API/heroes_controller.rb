@@ -1,16 +1,7 @@
 class API::HeroesController < ApplicationController
 
   def index
-    render json: [
-      {
-        name: 'Puck',
-        roles: ['initiator', 'nuker']
-      },
-      {
-        name: 'Pudge',
-        roles: ['initiator', 'nuker', 'durable']
-      }
-    ].to_json
+    render json: Hero.all.to_json
   end
   
 end

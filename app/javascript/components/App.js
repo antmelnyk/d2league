@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom"
 import { Provider } from "react-redux"
 
 import Home from "./Home"
-import Heroes from "./Heroes"
+import Suggestion from "./Suggestion"
 
 import configureStore from "../configureStore"
 const store = configureStore();
@@ -15,7 +15,7 @@ class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" render={() => <Home />} />
-            <Route path="/suggest" render={() => <Heroes />} />
+            <Route path="/suggestion" render={() => <Suggestion />} />
           </Switch>
         </BrowserRouter>
       </Provider>

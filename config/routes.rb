@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   end
 
   namespace :api, defaults: { format: 'json' } do
-    get 'heroes', to: 'heroes#index'
+    get 'heroes',   to: 'heroes#index'
+    get 'suggest_champions',  to: 'champions#suggest'
   end
 
 end

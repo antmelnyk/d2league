@@ -1,5 +1,5 @@
 const initialState = {
-  heroes: [],
+  list: [],
   isFetching: false
 }
 
@@ -8,7 +8,7 @@ export function heroesReducer(state = initialState, action) {
     case "REQUEST_HEROES":
       return { ...state, isFetching: true }
     case "RECEIVE_HEROES": 
-      return { heroes: action.heroes, isFetching: false };
+      return { list: action.heroes, isFetching: false };
   }
   return state;
 }

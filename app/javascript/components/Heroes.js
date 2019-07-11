@@ -1,5 +1,7 @@
 import React from "react"
 import { connect } from "react-redux"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 import { fetchHeroes } from "../actions/heroes"
 
@@ -9,14 +11,17 @@ class Heroes extends React.Component {
     this.props.fetchHeroes()
   }
   
-  render () {  
+  render () {
     const heroes =
-      <ul>
+      <ul className="heroes">
         {this.props.heroes.map((hero) => (
-          <ul key={hero.name}>
-            <div>{hero.name}</div>>
-            {hero.roles.map((role, index) => <li key={index}>{role}</li>)}
-          </ul>
+          <li className="hero" key={hero.name}>
+            <LazyLoadImage
+              className="hero__image"
+              alt={hero.name}
+              effect="opacity"
+              src={`assets/dota_heroes/${hero.name}.png`} />
+          </li>
         ))}
       </ul>;
 
@@ -28,6 +33,6 @@ class Heroes extends React.Component {
   }
 }
 
-const mapStateToProps = state => ({ heroes: state.heroes.heroes, isFetching: state.heroes.isFetching });
+const mapStateToProps = state => ({ heroes: state.heroes.list, isFetching: state.heroes.isFetching });
 const mapDispatchToProps = { fetchHeroes };
 export default connect(mapStateToProps, mapDispatchToProps)(Heroes)
