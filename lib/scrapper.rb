@@ -6,7 +6,7 @@ require 'watir'
 
 DOTA_HEROES_URL = 'http://www.dota2.com/heroes/'
 LEAGUE_CHAMPS_URL = 'https://na.leagueoflegends.com/en/game-info/champions/'
-
+LEAGUE_ROLES_URL = 'https://leagueoflegends.fandom.com/wiki/'
 
 
 class Scrapper
@@ -78,13 +78,16 @@ class Scrapper
 
         champ_data[:abilities].push(ability)
 
-        save_image(browser.div(id: "#{skill}Icon").img.wait_until(&:present?).src, "assets/champs_skills/#{champ_data[:name]}", "#{skill}.png")
+        # save_image(browser.div(id: "#{skill}Icon").img.wait_until(&:present?).src, "assets/champs_skills/#{champ_data[:name]}", "#{skill}.png")
       end
 
-      save_image(browser.img(class: "dd-set-image-champion-icon").wait_until(&:present?).src, "assets/league_champs", "#{champ_data[:name]}.png")
+      # save_image(browser.img(class: "dd-set-image-champion-icon").wait_until(&:present?).src, "assets/league_champs", "#{champ_data[:name]}.png")
       champs.push(champ_data)
 
-      puts champ_data
+      browser.goto(LEAGUE_ROLES_URL + champ_data[:name])
+      champ_data[:role] = wait(browser.span(class: "glossary tooltips-init-complete")).attribute_value('data-param')
+
+      puts "#{champ_data[:name]}: #{champ_data[:role]}"
     end
     save_json(champs, 'league_champs.json')
   end
