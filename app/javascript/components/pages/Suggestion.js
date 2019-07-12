@@ -21,7 +21,7 @@ class Suggestion extends React.Component {
   render () {
     return (
       <div className="suggestion-wrapper container">
-        <h1>Select your Dota 2 heroes on the left and click here</h1>
+        <h1>Select up to 5 Dota 2 heroes and click here</h1>
         <button onClick={this.props.handleSuggestion} className="button action-suggest-champions" type="button">
           Suggest Champions
         </button>
