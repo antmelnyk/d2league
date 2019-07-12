@@ -2,8 +2,8 @@ import React from "react"
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 import { Provider } from "react-redux"
 
-import Home from "./Home"
-import Suggestion from "./Suggestion"
+import Home from "./pages/Home"
+import Suggestion from "./pages/Suggestion"
 
 import configureStore from "../configureStore"
 const store = configureStore();

@@ -1,10 +1,10 @@
 import React from "react"
 import { connect } from "react-redux"
 
-import Heroes from "./Heroes"
-import SuggestionResults from "./SuggestionResults"
+import Heroes from "../Heroes"
+import SuggestionResults from "../SuggestionResults"
 
-import { suggestChampions } from "../actions/champions"
+import { suggestChampions } from "../../actions/champions"
 
 
 class Suggestion extends React.Component {
