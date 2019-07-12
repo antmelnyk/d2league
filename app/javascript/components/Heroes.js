@@ -1,10 +1,9 @@
 import React from "react"
 import { connect } from "react-redux"
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 import { fetchHeroes } from "../actions/heroes"
-import Spinner from "./Spinner";
+import Spinner from "./Spinner"
+import Hero from "./Hero"
 
 class Heroes extends React.Component {
 
@@ -16,16 +15,9 @@ class Heroes extends React.Component {
     const heroes =
       <ul className="heroes">
         {this.props.heroes.map((hero) => (
-          <li className="hero" key={hero.name}>
-            <LazyLoadImage
-              className="hero__image"
-              title={hero.name}
-              effect="opacity"
-              src={`assets/dota_heroes/${hero.name}.png`} />
-          </li>
+          <Hero {...hero} key={hero.id} />
         ))}
       </ul>;
-
 
     return (
       <div className="heroes-container">

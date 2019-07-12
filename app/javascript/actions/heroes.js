@@ -1,7 +1,9 @@
 import API from '../api';
 import { 
   REQUEST_HEROES,
-  RECEIVE_HEROES
+  RECEIVE_HEROES,
+  SELECT_HERO,
+  DESELECT_HERO
 } from './actionTypes';
 
 export function fetchHeroes() {
@@ -19,5 +21,19 @@ export function receiveHeroes(heroes) {
   return {
     type: RECEIVE_HEROES,
     heroes
+  }
+}
+
+export function selectHero(hero_id) {
+  return {
+    type: SELECT_HERO,
+    hero_id
+  }
+}
+
+export function deselectHero(hero_id) {
+  return {
+    type: DESELECT_HERO,
+    hero_id
   }
 }
