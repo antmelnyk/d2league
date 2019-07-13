@@ -15,18 +15,18 @@ class Suggestion extends React.Component {
   }
 
   handleSuggestion() {
-    this.props.suggestChampions()
+    this.props.suggestChampions(this.props.selectedHeroes)
   }
 
   render () {
     return (
       <div className="suggestion-wrapper container">
         <h1>Select up to 5 Dota 2 heroes and click here</h1>
-        <button onClick={this.props.handleSuggestion} className="button action-suggest-champions" type="button">
+        <button onClick={this.handleSuggestion} className="button action-suggest-champions" type="button">
           Suggest Champions
         </button>
         <div className="suggestion">
-          <Heroes handleSuggestion={this.handleSuggestion} />
+          <Heroes />
           <SuggestionResults />
         </div>
       </div>
@@ -34,6 +34,10 @@ class Suggestion extends React.Component {
   }
 }
 
-const mapStateToProps = state => ({ champions: state.champions.list, isFetching: state.champions.isFetching });
+const mapStateToProps = state => ({ 
+  selectedHeroes: state.heroes.selected,
+  champions: state.champions.list,
+  isFetching: state.champions.isFetching 
+});
 const mapDispatchToProps = { suggestChampions };
 export default connect(mapStateToProps, mapDispatchToProps)(Suggestion)
