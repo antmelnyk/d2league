@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Earthshaker",
+    "similarities": [
+      {
+        "name": "Alistar",
+        "role": true,
+        "skills": true,
+        "theme": true,
+        "description": "League has a lot of permastun-initiators like Earthshaker. Good news is you don't need Blink Dagger to be viable. Alistar can jump and stun enemies at lvl 2 already!"
+      },
+      {
+        "name": "Leona",
+        "role": true,
+        "skills": true
+      }
+    ]
+  },
+  {
+    "name": "Sven",
+    "similarities": [
+      {
+        "name": "Jax",
+        "role": true,
+        "skills": true,
+        "description": "Although League doesn't have quite copy of Sven... there is whole class of Champions that like melee skirmishes. Jax is one of them!"
+      },{
+        "name": "Aatrox",
+        "role": true,
+        "description": "He can also turn on his God-mode with R and delete squishy targets."
+      },
+      {
+        "name": "Pantheon",
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Tiny",
+    "similarities": [
+      {
+        "name": "Alistar",
+        "role": true
+      },
+      {
+        "name": "Leona",
+        "role": true,
+        "skills": true
+      },
+      {
+        "name": "Malphite",
+        "theme": true
+      }
+    ]
+  },
+  {
+    "name": "Kunkka",
+    "similarities": [
+      {
+        "name": "Gangplank",
+        "role": true,
+        "theme": true,
+        "description": "Ahoy, sailor! Gangplank is similar to Kunkka in many aspects and has his own combos with barrels to perform compared to Kunkka's X-Mark+Ship."
+      }
+    ]
+  },
+  {
+    "name": "Luna",
+    "similarities": [
+      {
+        "name": "Sivir",
+        "role": true,
+        "skills": true,
+        "description": "Sivir's main mechanic are glaves too. She can also block enemy spell like Anti-mage with her E and speed-up her allies with ultimate."
+      }
+    ]
+  },
+  {
+    "name": "Beastmaster",
+    "similarities": [
+      {
+        "name": "Udyr",
+        "theme": true,
+        "description": "Udyr lacks beasts to control but he can turn himself into them. Changing wild forms of bear, turtle, tiger and phoenix Udyr is furious enemy to fight with."
+      },
+      {
+        "name": "Quinn",
+        "skills": true,
+        "description": "Quinn is Marksman and ranged champion yet she has her eagle Valor that helps her in fight."
+      }
+    ]
+  },
+  {
+    "name": "Dragon Knight",
+    "similarities": [
+      {
+        "name": "Shyvana",
+        "skills": true,
+        "theme": true,
+        "description": "Shyvana is Dragon Knight on steroids. She can dive into enemies and burn everything aroung her."
+      }
+    ]
+  },
+  {
+    "name": "Clockwerk",
+    "similarities": [
+      {
+        "name": "Thresh",
+        "role": true,
+        "skills": true,
+        "description": "You can't initiate with Thresh throughout 3 21\" screens yet he has hook, cogs-like ultimate and despite being a support Tresh is much more dangerous then Clockwerk."
+      }
+    ]
+  },
+  {
+    "name": "Omniknight",
+    "similarities": [
+      {
+        "name": "Taric",
+        "role": true,
+        "skills": true
+      }
+    ]
+  },
+  {
+    "name": "Huskar",
+    "similarities": [
+      {
+        "name": "Xin Zhao",
+        "role": true
+      },
+      {
+        "name": "Warwick",
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Alchemist",
+    "similarities": [
+      {
+        "name": "Dr. Mundo",
+        "skills": true,
+        "role": true,
+        "description": "Despite not being farm-machine Dr. Mundo can also turn his chemical rage-mode with regeneration and is quite dangerous target for enemy to approach."
+      }
+    ]
+  },
+  {
+    "name": "Brewmaster",
+    "similarities": [
+      {
+        "name": "Riven",
+        "description": "There isn't champion similar to Brewmaster with his 3 unit ultimate. Yet if you like some challenge League has quite a lot of mechanically complicated champions. Riven likes to fight too and can be the monster when mastered."
+      }
+    ]
+  },
+  {
+    "name": "Treant Protector",
+    "similarities": [
+      {
+        "name": "Galio",
+        "role": true,
+        "description": "Galio is great choice for those who like to protect his friends."
+      }
+    ]
+  },
+  {
+    "name": "Io",
+    "similarities": [
+      {
+        "name": "Yuumi",
+        "role": true,
+        "description": "This cat attach to his allies too and buff them."
+      }
+    ]
+  },
+  {
+    "name": "Centaur Warrunner",
+    "similarities": [
+      {
+        "name": "Hecarim",
+        "skills": true,
+        "theme": true,
+        "description": "Hecarim is not that tanky but he speeds himself up and dives into enemies just like Centaur's ultimate."
+      },
+      {
+        "name": "Rammus",
+        "role": true,
+        "skills": true,
+        "description": "Rammus has similar passive and similar ultimate. He is an annoying tank who can literally faceroll into enemies."
+      }
+    ]
+  },
+  {
+    "name": "Timbersaw",
+    "similarities": [
+      {
+        "name": "Qiyana",
+        "skills": true,
+        "description": "Despite not being as tanky as Timbersaw, Qiyana can interact with wallls, river and bushes. She can throw her disk and delete enemies just like good old Timber."
+      }
+    ]
+  },
+  {
+    "name": "Bristleback",
+    "similarities": [
+      {
+        "name": "Illaoi",
+        "role": true,
+        "description": "Bristleback probably would fit nice into League's roster. By his nature he is true Juggernaut (champion class). He is hard to kill and he kills hard if you stay near him. League has a lot of unique champions that are similar to Bristleback by role."
+      },
+      {
+        "name": "Garen",
+        "role": true
+      },
+      {
+        "name": "Mordekaiser",
+        "role": true
+      },
+      {
+        "name": "Trundle",
+        "role": true
+      }
+
+    ]
+  },
+  {
+    "name": "Tusk",
+    "similarities": [
+      {
+        "name": "Nunu & Willump",
+        "skills": true,
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Elder Titan",
+    "similarities": [
+      {
+        "name": "Ornn",
+        "role": true,
+        "description": "Ornn has similar ultimate and role. Also you will be surprised with unique item-mechanics Ornn has too."
+      },
+      {
+        "name": "Maokai",
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Tusk",
+    "similarities": [
+      {
+        "name": "Nunu & Willump",
+        "skills": true,
+        "role": true
+      }
+    ]
+  }  
+]

@@ -29,14 +29,20 @@
 # end
 
 # Similarities
-similarities = ActiveSupport::JSON.decode File.read('similarities.json')
-similarities.each do |hero|
-  hero.similarities.create({
-    champion_id: Champion.where(name: hero.)
-  })
-end
-Hero.all.each do |hero|
-  similarity = Similarity.new({ hero_id: hero.id })
-  
-
+similarities_data = ActiveSupport::JSON.decode File.read('db/similarities.json')
+similarities_data.each do |hero|
+  hero["similarities"].each do |similarity|
+    begin
+      Similarity.create({
+        hero_id: Hero.where(name: hero["name"]).first.id,
+        champion_id: Champion.where(name: similarity["name"]).first.id,
+        role: similarity["role"] ? similarity["role"] : false,
+        skills: similarity["skills"] ? similarity["skills"] : false,
+        theme: similarity["theme"] ? similarity["theme"] : false,
+        description: similarity["description"]
+      })
+    rescue
+      puts "ERROR: " + similarity.inspect
+    end
+  end
 end
