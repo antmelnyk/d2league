@@ -4,8 +4,9 @@ class API::ChampionsController < ApplicationController
     similarities = []
     Similarity.where(hero_id: suggest_params[:heroes]).each do |similarity_data|
       similarity = {}
-      similarity[:similarity_data] = similarity_data.attributes.except("created_at", "updated_at")
+      similarity[:similarity_info] = similarity_data.attributes.except("created_at", "updated_at")
       similarity[:champion_info] = similarity_data.champion.attributes.except("created_at", "updated_at")
+      similarity[:champion_info][:role] = similarity_data.champion.roles.first.name
       similarities << similarity
     end
     render json: similarities

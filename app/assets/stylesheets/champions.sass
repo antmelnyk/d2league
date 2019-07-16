@@ -1,0 +1,56 @@
+.suggestion-results-container
+  width: calc(1200px - 480px)
+  padding-left: 50px
+
+.champions
+  margin: 0
+  padding: 0
+  width: 100%
+
+.champion
+  list-style-type: none
+  background: rgba(255, 255, 255, .1)
+  padding: 20px
+  margin-bottom: 30px
+
+  &__header
+    display: flex
+  
+  &__info
+    padding-left: 15px   
+
+  &__title
+    font-size: 22px
+    font-weight: 600
+  
+  &__role
+    display: flex
+    align-items: center
+    font-size: 18px
+    img
+      margin-right: 5px
+
+  &__description
+    margin-top: 10px
+    line-height: 20px
+    font-size: 18px
+
+  &__skills
+    margin-top: 10px
+    max-height: 800px
+    overflow: hidden
+    transition: 0.25s ease
+
+  &__skills--hidden
+    max-height: 20px
+
+  &__skills-toggler
+    margin-bottom: 10px
+    text-align: center
+    color: #ffcd6a
+    font-weight: 600
+    cursor: pointer
+    text-decoration: underline
+    text-decoration-style: dotted
+
+
