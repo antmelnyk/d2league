@@ -17,7 +17,8 @@ class Hero extends React.Component {
   
   render () {
     const selected = this.props.selected ? 'hero--selected' : ''
-    const classes = `hero ${selected}`
+    const visible = this.props.visible ? '' : 'hero--hidden'
+    const classes = `hero ${selected} ${visible}`
 
     return (
       <li className={classes} onClick={this.handleClick.bind(this, this.props.id)}>

@@ -1,9 +1,25 @@
 .heroes-container
-  width: 480px
+  min-width: 400px
+  max-width: 400px
   min-height: 940px
 
+.heroes-actions
+  input
+    width: 100%
+    background: transparent
+    color: white
+    font-size: 18px
+    border: none
+    border-bottom: 2px solid rgba(255, 255, 255, .5)
+  button
+    font-size: 18px
+    width: 100%
+    padding: 7px
+    margin: 15px 0 30px 0
+    
 .heroes
   display: flex
+  justify-content: center
   flex-wrap: wrap
   margin: 0
   padding: 0
@@ -30,3 +46,8 @@
     transform: scale(1.65)
     box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5)
     border: 1px solid white
+
+.hero--hidden
+  width: 0
+  height: 0
+  overflow: hidden

@@ -14,7 +14,10 @@ class SuggestionResults extends React.Component {
 
     return (
       <div className="suggestion-results-container">
-        {this.props.isFetching ? <Spinner /> : champions }
+        <div className="suggestion-results-container__hint">
+          { this.props.champions.length == 0 ? "Select up to 5 Dota 2 heroes and click Suggest button!" : "" }
+        </div>
+        { this.props.isFetching ? <Spinner /> : champions }
       </div>
     );
   }
