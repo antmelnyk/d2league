@@ -1,24 +1,17 @@
-# README
+# Dota 2 to League of Legends
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An app that suggest League champions based on selected Dota 2 heroes. Also includes some basic information about different aspects of the game.
 
-Things you may want to cover:
+![alt tag](https://a.radikal.ru/a08/1907/63/5c127a91a2fb.png)
 
-* Ruby version
+To run locally:
 
-* System dependencies
+```
+bundle install
+yarn install
+rails db:setup
+rails s
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# In other terminal
+./bin/webpack-dev-server
+```
