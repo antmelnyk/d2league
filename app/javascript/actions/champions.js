@@ -1,7 +1,7 @@
 import API from '../api';
 import { 
   SUGGEST_CHAMPIONS,
-  RECEIVE_CHAMPIONS
+  RECEIVE_SIMILARITIES
 } from './actionTypes';
 
 export function suggestChampions(heroes) {
@@ -12,13 +12,13 @@ export function suggestChampions(heroes) {
     });
     return API.suggestChampions(heroes)
       .then(response => response.json())
-      .then(json => dispatch(receiveChampions(json)))
+      .then(json => dispatch(receiveSimilarities(json)))
   };
 }
 
-export function receiveChampions(champions) {
+export function receiveSimilarities(similarities) {
   return {
-    type: RECEIVE_CHAMPIONS,
-    champions
+    type: RECEIVE_SIMILARITIES,
+    similarities
   }
 }

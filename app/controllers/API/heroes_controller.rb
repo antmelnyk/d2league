@@ -1,7 +1,8 @@
 class API::HeroesController < ApplicationController
 
   def index
-    render json: Hero.all.to_json
+    heroes = Hero.all.to_json(only: [:id, :name])
+    render json: heroes
   end
   
 end

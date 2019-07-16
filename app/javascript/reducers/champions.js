@@ -1,3 +1,8 @@
+import {
+  SUGGEST_CHAMPIONS,
+  RECEIVE_SIMILARITIES
+} from '../actions/actionTypes'
+
 const initialState = {
   list: [],
   isFetching: false
@@ -5,10 +10,13 @@ const initialState = {
 
 export function championsReducer(state = initialState, action) {
   switch (action.type) {
-    case "REQUEST_CHAMPIONS":
+
+    case SUGGEST_CHAMPIONS:
       return { ...state, isFetching: true }
-    case "RECEIVE_CHAMPIONS": 
-      return { list: action.champions, isFetching: false };
+
+    case RECEIVE_SIMILARITIES: 
+      return { list: action.similarities, isFetching: false };
+
   }
   return state;
 }
