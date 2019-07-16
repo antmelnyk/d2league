@@ -20,33 +20,15 @@
     "name": "Sven",
     "similarities": [
       {
-        "name": "Jax",
-        "role": true,
-        "skills": true,
-        "description": "Although League doesn't have quite copy of Sven... there is whole class of Champions that like melee skirmishes. Jax is one of them!"
-      },{
         "name": "Aatrox",
         "role": true,
-        "description": "He can also turn on his God-mode with R and delete squishy targets."
-      },
-      {
-        "name": "Pantheon",
-        "role": true
+        "description": "Aatrox can turn on his God-mode with R and delete squishy targets just like Sven."
       }
     ]
   },
   {
     "name": "Tiny",
     "similarities": [
-      {
-        "name": "Alistar",
-        "role": true
-      },
-      {
-        "name": "Leona",
-        "role": true,
-        "skills": true
-      },
       {
         "name": "Malphite",
         "theme": true
@@ -60,7 +42,7 @@
         "name": "Gangplank",
         "role": true,
         "theme": true,
-        "description": "Ahoy, sailor! Gangplank is similar to Kunkka in many aspects and has his own combos with barrels to perform compared to Kunkka's X-Mark+Ship."
+        "description": "Ahoy, sailor! Gangplank is similar to Kunkka in many aspects and has his own combos with barrels to perform compared to Kunkka's X-Mark + Ship."
       }
     ]
   },
@@ -108,7 +90,7 @@
         "name": "Thresh",
         "role": true,
         "skills": true,
-        "description": "You can't initiate with Thresh throughout 3 21\" screens yet he has hook, cogs-like ultimate and despite being a support Tresh is much more dangerous then Clockwerk."
+        "description": "You will not be able to initiate through 3 screens yet Tresh has powerful hook, cogs-like ultimate and despite being a support Tresh is much more dangerous then Clockwerk."
       }
     ]
   },
@@ -161,7 +143,7 @@
       {
         "name": "Galio",
         "role": true,
-        "description": "Galio is great choice for those who like to protect his friends."
+        "description": "Galio is a great choice for those who like to protect their friends."
       }
     ]
   },
@@ -171,7 +153,7 @@
       {
         "name": "Yuumi",
         "role": true,
-        "description": "This cat attach to his allies too and buff them."
+        "description": "This kitty can attach to his allies and buff them."
       }
     ]
   },
@@ -182,7 +164,7 @@
         "name": "Hecarim",
         "skills": true,
         "theme": true,
-        "description": "Hecarim is not that tanky but he speeds himself up and dives into enemies just like Centaur's ultimate."
+        "description": "Hecarim is not very tanky but he speeds himself up and dives into enemies just like on Centaur's ultimate."
       },
       {
         "name": "Rammus",
@@ -198,7 +180,7 @@
       {
         "name": "Qiyana",
         "skills": true,
-        "description": "Despite not being as tanky as Timbersaw, Qiyana can interact with wallls, river and bushes. She can throw her disk and delete enemies just like good old Timber."
+        "description": "Despite not being as tanky as Timbersaw, Qiyana can interact with walls, river and bushes. She can throw her disk and delete enemies just like good old Timber."
       }
     ]
   },
@@ -222,7 +204,6 @@
         "name": "Trundle",
         "role": true
       }
-
     ]
   },
   {
@@ -231,7 +212,8 @@
       {
         "name": "Nunu & Willump",
         "skills": true,
-        "role": true
+        "role": true,
+        "theme": true
       }
     ]
   },
@@ -241,22 +223,12 @@
       {
         "name": "Ornn",
         "role": true,
-        "description": "Ornn has similar ultimate and role. Also you will be surprised with unique item-mechanics Ornn has too."
+        "description": "Ornn has similar ultimate and role. Also you will be surprised with unique item-mechanics."
       },
       {
         "name": "Maokai",
         "role": true
       }
     ]
-  },
-  {
-    "name": "Tusk",
-    "similarities": [
-      {
-        "name": "Nunu & Willump",
-        "skills": true,
-        "role": true
-      }
-    ]
-  }  
+  }
 ]

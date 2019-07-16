@@ -66,7 +66,7 @@ class Champion extends React.Component {
                 { this.props.similarity_info.skills ? "Similar skills or mechanics" : "" }
               </div>
               <div className="champion__similar-by"> 
-                { this.props.similarity_info.role ? "Similar theme or visuals" : "" }
+                { this.props.similarity_info.theme ? "Similar theme or visuals" : "" }
               </div>
             </div>
 
