@@ -1,0 +1,1289 @@
+[
+  {
+    "id": 0,
+    "name": "Earthshaker",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 1,
+    "name": "Sven",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 2,
+    "name": "Tiny",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher",
+      "Initiator",
+      "Durable",
+      "Disabler"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 3,
+    "name": "Kunkka",
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 4,
+    "name": "Beastmaster",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 5,
+    "name": "Dragon Knight",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Durable",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 6,
+    "name": "Clockwerk",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 7,
+    "name": "Omniknight",
+    "roles": [
+      "Support",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 8,
+    "name": "Huskar",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 9,
+    "name": "Alchemist",
+    "roles": [
+      "Carry",
+      "Support",
+      "Durable",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 10,
+    "name": "Brewmaster",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 11,
+    "name": "Treant Protector",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 12,
+    "name": "Io",
+    "roles": [
+      "Support",
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 13,
+    "name": "Centaur Warrunner",
+    "roles": [
+      "Durable",
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 14,
+    "name": "Timbersaw",
+    "roles": [
+      "Nuker",
+      "Durable",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 15,
+    "name": "Bristleback",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 16,
+    "name": "Tusk",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 17,
+    "name": "Elder Titan",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Durable"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 18,
+    "name": "Legion Commander",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 19,
+    "name": "Earth Spirit",
+    "roles": [
+      "Nuker",
+      "Escape",
+      "Disabler",
+      "Initiator",
+      "Durable"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 20,
+    "name": "Phoenix",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Initiator",
+      "Escape",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 21,
+    "name": "Mars",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Durable"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 22,
+    "name": "Anti-Mage",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 23,
+    "name": "Drow Ranger",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 24,
+    "name": "Juggernaut",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 25,
+    "name": "Mirana",
+    "roles": [
+      "Carry",
+      "Support",
+      "Escape",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 26,
+    "name": "Morphling",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Durable",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 27,
+    "name": "Phantom Lancer",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Pusher",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 28,
+    "name": "Vengeful Spirit",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 29,
+    "name": "Riki",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 30,
+    "name": "Sniper",
+    "roles": [
+      "Carry",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 31,
+    "name": "Templar Assassin",
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 32,
+    "name": "Luna",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 33,
+    "name": "Bounty Hunter",
+    "roles": [
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 34,
+    "name": "Ursa",
+    "roles": [
+      "Carry",
+      "Jungler",
+      "Durable",
+      "Disabler"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 35,
+    "name": "Gyrocopter",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 36,
+    "name": "Lone Druid",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Jungler",
+      "Durable"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 37,
+    "name": "Naga Siren",
+    "roles": [
+      "Carry",
+      "Support",
+      "Pusher",
+      "Disabler",
+      "Initiator",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 38,
+    "name": "Troll Warlord",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Disabler",
+      "Durable"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 39,
+    "name": "Ember Spirit",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler",
+      "Initiator"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 40,
+    "name": "Monkey King",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler",
+      "Initiator"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 41,
+    "name": "Pangolier",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Escape",
+      "Initiator"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 42,
+    "name": "Crystal Maiden",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Jungler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 43,
+    "name": "Puck",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 44,
+    "name": "Storm Spirit",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Initiator",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 45,
+    "name": "Windranger",
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 46,
+    "name": "Zeus",
+    "roles": [
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 47,
+    "name": "Lina",
+    "roles": [
+      "Support",
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 48,
+    "name": "Shadow Shaman",
+    "roles": [
+      "Support",
+      "Pusher",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 49,
+    "name": "Tinker",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 50,
+    "name": "Nature's Prophet",
+    "roles": [
+      "Carry",
+      "Jungler",
+      "Pusher",
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 51,
+    "name": "Enchantress",
+    "roles": [
+      "Support",
+      "Jungler",
+      "Pusher",
+      "Durable",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 52,
+    "name": "Jakiro",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Pusher",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 53,
+    "name": "Chen",
+    "roles": [
+      "Support",
+      "Jungler",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 54,
+    "name": "Silencer",
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 55,
+    "name": "Ogre Magi",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Initiator"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 56,
+    "name": "Rubick",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 57,
+    "name": "Disruptor",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 58,
+    "name": "Keeper of the Light",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Jungler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 59,
+    "name": "Skywrath Mage",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 60,
+    "name": "Oracle",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 61,
+    "name": "Techies",
+    "roles": [
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 62,
+    "name": "Dark Willow",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 63,
+    "name": "Axe",
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Jungler"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 64,
+    "name": "Pudge",
+    "roles": [
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 65,
+    "name": "Sand King",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Support",
+      "Nuker",
+      "Escape",
+      "Jungler"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 66,
+    "name": "Slardar",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Disabler",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 67,
+    "name": "Tidehunter",
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 68,
+    "name": "Wraith King",
+    "roles": [
+      "Carry",
+      "Support",
+      "Durable",
+      "Disabler",
+      "Initiator"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 69,
+    "name": "Lifestealer",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Jungler",
+      "Escape",
+      "Disabler"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 70,
+    "name": "Night Stalker",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 71,
+    "name": "Doom",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 72,
+    "name": "Spirit Breaker",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 73,
+    "name": "Lycan",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Jungler",
+      "Durable",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 74,
+    "name": "Chaos Knight",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Durable",
+      "Pusher",
+      "Initiator"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 75,
+    "name": "Undying",
+    "roles": [
+      "Support",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 76,
+    "name": "Magnus",
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 77,
+    "name": "Abaddon",
+    "roles": [
+      "Support",
+      "Carry",
+      "Durable"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 78,
+    "name": "Underlord",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 79,
+    "name": "Bloodseeker",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Jungler",
+      "Nuker",
+      "Initiator"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 80,
+    "name": "Shadow Fiend",
+    "roles": [
+      "Carry",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 81,
+    "name": "Razor",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Nuker",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 82,
+    "name": "Venomancer",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Initiator",
+      "Pusher",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 83,
+    "name": "Faceless Void",
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Escape",
+      "Durable"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 84,
+    "name": "Phantom Assassin",
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 85,
+    "name": "Viper",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 86,
+    "name": "Clinkz",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 87,
+    "name": "Broodmother",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 88,
+    "name": "Weaver",
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 89,
+    "name": "Spectre",
+    "roles": [
+      "Carry",
+      "Durable",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 90,
+    "name": "Meepo",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler",
+      "Initiator",
+      "Pusher"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 91,
+    "name": "Nyx Assassin",
+    "roles": [
+      "Disabler",
+      "Nuker",
+      "Initiator",
+      "Escape"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 92,
+    "name": "Slark",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 93,
+    "name": "Medusa",
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Durable"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 94,
+    "name": "Terrorblade",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Nuker"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 95,
+    "name": "Arc Warden",
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 96,
+    "name": "Bane",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Durable"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 97,
+    "name": "Lich",
+    "roles": [
+      "Support",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 98,
+    "name": "Lion",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 99,
+    "name": "Witch Doctor",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 100,
+    "name": "Enigma",
+    "roles": [
+      "Disabler",
+      "Jungler",
+      "Initiator",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 101,
+    "name": "Necrophos",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Durable",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 102,
+    "name": "Warlock",
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 103,
+    "name": "Queen of Pain",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Escape"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 104,
+    "name": "Death Prophet",
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 105,
+    "name": "Pugna",
+    "roles": [
+      "Nuker",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 106,
+    "name": "Dazzle",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 107,
+    "name": "Leshrac",
+    "roles": [
+      "Carry",
+      "Support",
+      "Nuker",
+      "Pusher",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 108,
+    "name": "Dark Seer",
+    "roles": [
+      "Initiator",
+      "Jungler",
+      "Escape",
+      "Disabler"
+    ],
+    "class": "Melee"
+  },
+  {
+    "id": 109,
+    "name": "Batrider",
+    "roles": [
+      "Initiator",
+      "Jungler",
+      "Disabler",
+      "Escape"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 110,
+    "name": "Ancient Apparition",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 111,
+    "name": "Invoker",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler",
+      "Escape",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 112,
+    "name": "Outworld Devourer",
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 113,
+    "name": "Shadow Demon",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 114,
+    "name": "Visage",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Durable",
+      "Disabler",
+      "Pusher"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 115,
+    "name": "Winter Wyvern",
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "class": "Ranged"
+  },
+  {
+    "id": 116,
+    "name": "Grimstroke",
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "class": "Ranged"
+  }
+]
