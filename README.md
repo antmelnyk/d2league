@@ -18,7 +18,7 @@ rails s
 # See localhost:3000
 ```
 
-Champion similarities (basicly connections between Dota and League champs) are located in *db/similarities.json*. Format:
+Champion similarities (basically connections between Dota and League champs) are located in *db/similarities.json*. Format:
 ```
 {
   "name": "Earthshaker",     // Dota hero name
