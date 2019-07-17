@@ -13,6 +13,10 @@
         "name": "Leona",
         "role": true,
         "skills": true
+      },
+      {
+        "name": "Sejuani",
+        "role": true
       }
     ]
   },
@@ -23,6 +27,12 @@
         "name": "Aatrox",
         "role": true,
         "description": "Aatrox can turn on his God-mode with R and delete squishy targets just like Sven."
+      },
+      {
+        "name": "Garen",
+        "theme": true,
+        "role": true,
+        "description": "Garen is tanky and at the same time can damage enemies a lot."
       }
     ]
   },
@@ -207,7 +217,13 @@
       {
         "name": "Illaoi",
         "role": true,
-        "description": "Bristleback probably would fit nice into League's roster. By his nature he is true Juggernaut (champion class). He is hard to kill and he kills hard if you stay near him. League has a lot of unique champions that are similar to Bristleback by role."
+        "description": "They focus you. They die."
+      },
+      {
+        "name": "Zac",
+        "role": true,
+        "skills": true,
+        "description": "Zac spams his W and seeds chaos in fight."
       }
     ]
   },
@@ -246,6 +262,11 @@
   {
     "name": "Legion Commander",
     "similarities": [
+      {
+        "name": "Camille",
+        "role": true,
+        "description": "Camille can isolate single target in mini-arena. She is also very mobile and has versatile skillset."
+      },
       {
         "name": "Jarvan IV",
         "role": true,
@@ -327,6 +348,14 @@
         "skills": true,
         "role": true,
         "description": "Yasuo is a bit difficult champion to perform yet in right hands his blade cuts enemies like onions."
+      },
+      {
+        "name": "Tryndamere",
+        "role": true
+      },
+      {
+        "name": "Fiora",
+        "role": true
       }
     ]
   },
@@ -349,6 +378,19 @@
         "skills": true,
         "role": true,
         "description": "Kai'Sa can't morph her attributes (there is not attributes in League) yet her skills and gameflow is really close to Morphling."
+      },
+      {
+        "name": "Jhin",
+        "role": true,
+        "description": "Jhin is long range Marksman who waves his skills and autoattacks similar to Morphling."
+      },
+      {
+        "name": "Draven",
+        "role": true  
+      },
+      {
+        "name": "Tristana",
+        "role": true  
       }
     ]
   },
@@ -377,6 +419,11 @@
     "name": "Abaddon",
     "similarities": [
       {
+        "name": "Braum",
+        "role": true,
+        "description": "Braum protects his allies with his shield and stuns enemies."
+      },
+      {
         "name": "Mordekaiser",
         "theme": true,
         "description": "Dark and deathful Mordekaiser with his unique ultimate reminds Abaddon in some ways."
@@ -400,7 +447,7 @@
       {
         "name": "Shaco",
         "skills": true,
-        "description": "Shaco is a 'troll' champion that can go invisible and create clone to help him in fight or to juke opponents."
+        "description": "Shaco is somewhat a 'troll' champion that can go invisible and create clone to help him in fight or to juke opponents."
       }
     ]
   },
@@ -413,7 +460,11 @@
         "skills": true,
         "theme": true,
         "description": "Darius is very similar to Axe with his deadly spin and finisher ultimate."
-        
+      },
+      {
+        "name": "Shen",
+        "role": true,
+        "description": "Shen taunts enemies similar to Axe."
       }
     ]
   },
@@ -468,6 +519,11 @@
         "role": true,
         "skills": true,
         "description": "Shaco has invisibility and his deadly knives to delete squishy enemies."
+      },
+      {
+        "name": "Evelynn",
+        "role": true,
+        "description": "Evelynn is a mobile stealth asssasin who can disable her victim and has AOE finisher."
       }
     ]
   },
@@ -518,7 +574,7 @@
       {
         "name": "Sona",
         "role": true,
-        "description": "Sona helps her team with aura-spells and has powerful aoe-stun ultimate."
+        "description": "Sona helps her team with aura-spells and has powerful AOE-stun ultimate."
       },
       {
         "name": "Janna",
@@ -533,7 +589,7 @@
       {
         "name": "Amumu",
         "role": true,
-        "description": "Amumu damages everyone around him and has powerful aoe-stun ultimate."
+        "description": "Amumu damages everyone around him and has powerful AOE-stun ultimate."
       }
     ]
   },
@@ -572,6 +628,10 @@
         "name": "Swain",
         "skills": true,
         "description": "Swain has similar playstyle and ultimate."
+      },
+      {
+        "name": "Aurelion Sol",
+        "role": true
       }
     ]
   },
@@ -581,7 +641,7 @@
       {
         "name": "Bard",
         "role": true,
-        "description": "Bard is very unique champion and he acts like disruptor for enemy champions in some way. He can create holes through walls on the map and control battlefield with his aoe-stasis ultimate and Shackleshot-like stun."
+        "description": "Bard is very unique champion and he acts like disruptor for enemy champions in some way. He can create holes through walls on the map and control battlefield with his AOE-stasis ultimate and Shackleshot-like stun."
       }
     ]
   },
@@ -623,7 +683,7 @@
         "name": "Amumu",
         "skills": true,
         "role": true,
-        "description": "Amumu has similar devastating aoe-ultimate and he can toggle on/off Midnignt Pulse around himself."
+        "description": "Amumu has similar devastating AOE-ultimate and he can toggle on/off Midnignt Pulse around himself."
       },
       {
         "name": "Malzahar",
@@ -686,6 +746,11 @@
         "name": "Katarina",
         "role": true,
         "description": "Katarina performs fast combos and skill resets to delete enemies in fight."
+      },
+      {
+        "name": "Viktor",
+        "role": true,
+        "description": "Viktor is a skill dependet mage with versatile skillset."
       }
     ]
   },
@@ -765,6 +830,798 @@
         "role": true,
         "skills": true,
         "description": "Lulu doesn't have deadly finger yet she has hex on her W too and she is playing similar disabler role as Lion."
+      }
+    ]
+  },
+  {
+    "name": "Lone Druid",
+    "similarities": [
+      {
+        "name": "Volibear",
+        "role": true,
+        "theme": true,
+        "description": "Volibear can be really lonely bear on top lane..."
+      }
+    ]
+  },
+  {
+    "name": "Lycan",
+    "similarities": [
+      {
+        "name": "Warwick",
+        "role": true,
+        "theme": true,
+        "description": "Warwick was a human long ago... Now he hunts his enemies in very similar style to Lycan's ultimate."
+      }
+    ]
+  },
+  {
+    "name": "Medusa",
+    "similarities": [
+      {
+        "name": "Cassiopeia",
+        "skills": true,
+        "role": true,
+        "theme": true,
+        "description": "Cassiopeia is very similar to Medusa except she is battle mage, not attack damage champion. Does it matter though when your enemies are turned into stone?"
+      }
+    ]
+  },
+  {
+    "name": "Magnus",
+    "similarities": [
+      {
+        "name": "Hecarim",
+        "role": true,
+        "description": "You don't have to Reverse Polarity if your enemies are dead."
+      }
+    ]
+  },
+  {
+    "name": "Meepo",
+    "similarities": [
+      {
+        "name": "Rengar",
+        "role": true,
+        "skills": true,
+        "description": "Rengar is 1 champion, not 5, yet he has his net and deletes enemies jumping from invisibility."
+      }
+    ]
+  },
+  {
+    "name": "Monkey King",
+    "similarities": [
+      {
+        "name": "Wukong",
+        "role": true,
+        "theme": true,
+        "description": "He is Monkey King too."
+      }
+    ]
+  },
+  {
+    "name": "Naga Siren",
+    "similarities": [
+      {
+        "name": "Nami",
+        "theme": true
+      }
+    ]
+  },
+  {
+    "name": "Nature's Prophet",
+    "similarities": [
+      {
+        "name": "Ivern",
+        "theme": true,
+        "description": "Ivern is jungler-support. He can root enemies, cast shield and place bushes all over the map. He can also summon his friend, Daisy. If you look for splitpusher role... just play top lane champions."
+      }
+    ]
+  },
+  {
+    "name": "Necrophos",
+    "similarities": [
+      {
+        "name": "Karthus",
+        "role": true,
+        "skills": true,
+        "description": "Karthus is quite dangerous if you stay near him, even after you killed him..."
+      }
+    ]
+  },
+  {
+    "name": "Night Stalker",
+    "similarities": [
+      {
+        "name": "Nocturne",
+        "role": true,
+        "skills": true,
+        "description": "Nocturne is a hunter who can cast fear on his enemies. His ultimate allows him to turn off vision for every enemy champion much worse then Night Stalker..."
+      }
+    ]
+  },
+  {
+    "name": "Nyx Assassin",
+    "similarities": [
+      {
+        "name": "Kha'Zix",
+        "role": true,
+        "description": "If you like assassins you can find a lot of them in league, Kha'Zix is just one of them and he is very similar to Nyx."
+      }
+    ]
+  },
+  {
+    "name": "Ogre Magi",
+    "similarities": [
+      {
+        "name": "Braum",
+        "role": true,
+        "description": "Braum is tank-support who can serve great protection for his allies and stun their enemies."
+      }
+    ]
+  },
+  {
+    "name": "Oracle",
+    "similarities": [
+      {
+        "name": "Zilean",
+        "role": true,
+        "skills": true,
+        "description": "Save your allies from death with Zilean."
+      }
+    ]
+  },
+  {
+    "name": "Pangolier",
+    "similarities": [
+      {
+        "name": "Rammus",
+        "role": true,
+        "skills": true,
+        "description": "Rammus is a great choice if you like to faceroll your enemies."
+      }
+    ]
+  },
+  {
+    "name": "Outworld Devourer",
+    "similarities": [
+      {
+        "name": "Veigar",
+        "role": true,
+        "skills": true,
+        "description": "Veigar is not that serious champion as OD in terms of lore... yet his spells and ultimate are nonetheless deadly."
+      }
+    ]
+  },
+  {
+    "name": "Phantom Assassin",
+    "similarities": [
+      {
+        "name": "Jax",
+        "role": true,
+        "skills": true,
+        "description": "Jax is a more tankish variant of Phantom Assassin. He has huge damage output and can jump onto enemies."
+      },
+      {
+        "name": "Yasuo",
+        "role": true,
+        "skills": true,
+        "description": "Yasuo is a more assassinish variant of Phantom Assassin. His kit evolves around critical damage and dashes between enemies."
+      }
+    ]
+  },
+  {
+    "name": "Puck",
+    "similarities": [
+      {
+        "name": "Fizz",
+        "role": true,
+        "skills": true,
+        "description": "Elusive killer Fizz has very similar playstyle to Puck."
+      },
+      {
+        "name": "Lissandra",
+        "role": true,
+        "skills": true,
+        "description": "Lissandra is a battle mage who can teleport herself similar to Puck's orb and she has great AOE skills."
+      }
+    ]
+  },
+  {
+    "name": "Pudge",
+    "similarities": [
+      {
+        "name": "Blitzcrank",
+        "role": true,
+        "skills": true,
+        "description": "Blitzcrank has that juicy hook combo too."
+      },
+      {
+        "name": "Thresh",
+        "skills": true,
+        "description": "Thresh has dangerous hook and also more complicated skills compared to Pudge."
+      }
+    ]
+  },
+  {
+    "name": "Pugna",
+    "similarities": [
+      {
+        "name": "Fiddlesticks",
+        "skills": true,
+        "description": "Fiddle has a lot of magical damage and he can suck enemies health too."
+      }
+    ]
+  },
+  {
+    "name": "Queen of Pain",
+    "similarities": [
+      {
+        "name": "LeBlanc",
+        "role": true,
+        "skills": true,
+        "description": "LeBlanc does a lot of AOE magical damage and can 'blink' two times in a row."
+      },
+      {
+        "name": "Miss Fortune",
+        "role": true,
+        "skills": true,
+        "description": "Miss Fortune is Marksman, not a mage, yet she has similar ultimate and... lifestyle."
+      }
+    ]
+  },
+  {
+    "name": "Razor",
+    "similarities": [
+      {
+        "name": "Kennen",
+        "theme": true,
+        "skills": true,
+        "description": "Kennen is all about storm and electricity with huge AOE ultimate."
+      }
+    ]
+  },
+  {
+    "name": "Riki",
+    "similarities": [
+      {
+        "name": "Shaco",
+        "role": true,
+        "skills": true,
+        "description": "Invisible assassin similar to Riki in playstyle."
+      },
+      {
+        "name": "Akali",
+        "role": true,
+        "skills": true,
+        "description": "Akali can pop smoke and assassinate squishes from it."
+      },
+      {
+        "name": "Evelynn",
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Rubick",
+    "similarities": [
+      {
+        "name": "Sylas",
+        "skills": true,
+        "description": "Sylas can steal ultimates of enemy champions."
+      }
+    ]
+  },
+  {
+    "name": "Sand King",
+    "similarities": [
+      {
+        "name": "Fiddlesticks",
+        "skills": true,
+        "role": true,
+        "description": "Fiddlesticks jumps out of nowhere, disables and damages enemies just like Sand King."
+      },
+      {
+        "name": "Skarner",
+        "theme": true
+      }
+    ]
+  },
+  {
+    "name": "Shadow Demon",
+    "similarities": [
+      {
+        "name": "Sona",
+        "role": true,
+        "description": "If you like to spam your abilities and control with ultimate."
+      },
+      {
+        "name": "Janna",
+        "role": true,
+        "description": "If you like to protect your allies."
+      }
+    ]
+  },
+  {
+    "name": "Shadow Fiend",
+    "similarities": [
+      {
+        "name": "Ahri",
+        "role": true,
+        "description": "Outplayed."
+      },
+      {
+        "name": "Lux",
+        "role": true,
+        "skills": true,
+        "description": "If you like do delete enemies with ultimate."
+      },
+      {
+        "name": "Zoe",
+        "role": true,
+        "description": "Zoe is simple champion at first glance yet she has huge potential of outplaying enemies."
+      }
+    ]
+  },
+  {
+    "name": "Shadow Shaman",
+    "similarities": [
+      {
+        "name": "Lulu",
+        "role": true,
+        "description": "Great disabler with game-changing ultimate."
+      },
+      {
+        "name": "Nami",
+        "role": true,
+        "description": "Great disabler with heal and crowd control."
+      },
+      {
+        "name": "Morgana",
+        "role": true,
+        "description": "Great disabler with powerful ultimate and shield."
+      }
+    ]
+  },
+  {
+    "name": "Silencer",
+    "similarities": [
+      {
+        "name": "Malzahar",
+        "skills": true,
+        "description": "Silence is rare thing in League. Every champion can use his spells otherwise what's the point? Still Malzahar is good choice if you want to have silence and carry the game."
+      },
+      {
+        "name": "Soraka",
+        "skills": true,
+        "description": "Soraka is a healer support and also she has powerful instant AOE silence."
+      }
+    ]
+  },
+  {
+    "name": "Skywrath Mage",
+    "similarities": [
+      {
+        "name": "Lux",
+        "role": true,
+        "skills": true,
+        "description": "With Lux you can spam high damage spells and delete enemies with long range ultimate."
+      },
+      {
+        "name": "Neeko",
+        "role": true,
+        "description": "With Neeko you can outplay enemies and dish out a lot of magical damage in AOE."
+      }
+    ]
+  },
+  {
+    "name": "Slardar",
+    "similarities": [
+      {
+        "name": "Renekton",
+        "role": true,
+        "description": "Renekton is lane bully with stun who can snowball uncontrollably."
+      }
+    ]
+  },
+  {
+    "name": "Slark",
+    "similarities": [
+      {
+        "name": "Fizz",
+        "role": true,
+        "theme": true,
+        "description": "Uncatchable killer Fizz is similar to Slark in playstyle."
+      },
+      {
+        "name": "Pyke",
+        "role": true,
+        "theme": true,
+        "description": "Pyke is an assassin support who can escape threats and delete enemies."
+      }
+    ]
+  },
+  {
+    "name": "Sniper",
+    "similarities": [
+      {
+        "name": "Caitlyn",
+        "role": true,
+        "skills": true,
+        "description": "League has separate class for champions like Sniper. Caitlyn is very similar to Sniper himself. She has long range skills and same ultimate."
+      },
+      {
+        "name": "Jinx",
+        "role": true
+      },
+      {
+        "name": "Tristana",
+        "role": true
+      },
+      {
+        "name": "Varus",
+        "skills": true,
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Spectre",
+    "similarities": [
+      {
+        "name": "Nocturne",
+        "role": true,
+        "description": "Nocturne can instantly jump to enemy like Spectre."
+      },
+      {
+        "name": "Nasus",
+        "role": true,
+        "description": "If you like to farm a lot and then carry the game Nasus might be your choice."
+      }
+    ]
+  },
+  {
+    "name": "Spirit Breaker",
+    "similarities": [
+      {
+        "name": "Sion",
+        "role": true,
+        "skills": true,
+        "description": "If you like to faceroll into enemies and stun then, then Sion is your choice."
+      },
+      {
+        "name": "Udyr",
+        "role": true,
+        "description": "Udyr is very fast champion who can stun his enemies."
+      },
+      {
+        "name": "Kled",
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Storm Spirit",
+    "similarities": [
+      {
+        "name": "Ahri",
+        "role": true,
+        "skills": true,
+        "description": "She is a mobile mage with disable and nice damage output."
+      },
+      {
+        "name": "Kennen",
+        "theme": true,
+        "description": "Zip! Zap!"
+      }
+    ]
+  },
+  {
+    "name": "Techies",
+    "similarities": [
+      {
+        "name": "Teemo",
+        "role": true,
+        "skills": true,
+        "description": "Teemo can place his 'mines' everywhere and is very annoying to lane against."
+      },
+      {
+        "name": "Heimerdinger",
+        "role": true,
+        "description": "He can place his turrets and zone certain area."
+      },
+      {
+        "name": "Bard",
+        "description": "If you just like to troll enemies."
+      }
+    ]
+  },
+  {
+    "name": "Templar Assassin",
+    "similarities": [
+      {
+        "name": "Diana",
+        "role": true
+      },
+      {
+        "name": "Akali",
+        "role": true
+      },
+      {
+        "name": "Irelia",
+        "theme": true
+      }
+    ]
+  },
+  {
+    "name": "Terrorblade",
+    "similarities": [
+      {
+        "name": "Vayne",
+        "role": true
+      },
+      {
+        "name": "Xayah",
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Tidehunter",
+    "similarities": [
+      {
+        "name": "Amumu",
+        "role": true,
+        "skills": true,
+        "description": "Amumu is a tank with game-changing AOE ultimate."
+      },
+      {
+        "name": "Nunu & Willump",
+        "role": true,
+        "description": "Nunu has powerful AOE ultimate."
+      },
+      {
+        "name": "Gnar",
+        "role": true,
+        "description": "Little Gnar can transform into monster with powerful ultimate."
+      },
+      {
+        "name": "Nautilus",
+        "theme": true
+      }
+    ]
+  },
+  {
+    "name": "Tinker",
+    "similarities": [
+      {
+        "name": "Ryze",
+        "role": true
+      },
+      {
+        "name": "Twisted Fate",
+        "role": true
+      }
+    ]
+  },
+  {
+    "name": "Troll Warlord",
+    "similarities": [
+      {
+        "name": "Jayce",
+        "role": true,
+        "skills": true,
+        "description": "Jayce can switch between two skillsets too."
+      },
+      {
+        "name": "Trundle",
+        "role": true,
+        "description": "Trundle is a troll with high attack speed who makes his enemies weaker in fight."
+      }
+    ]
+  },
+  {
+    "name": "Underlord",
+    "similarities": [
+      {
+        "name": "Shen",
+        "role": true,
+        "description": "Shen can teleport to allies to save them. Also he tanks and soaks damage too."
+      },
+      {
+        "name": "Nasus",
+        "skills": true,
+        "description": "Nasus can stack his Q to become unstopable."
+      }
+    ]
+  },
+  {
+    "name": "Undying",
+    "similarities": [
+      {
+        "name": "Yorick",
+        "skills": true,
+        "description": "Yorick can create an army of zombies too."
+      },
+      {
+        "name": "Trundle",
+        "skills": true,
+        "role": true,
+        "description": "Trundle can place his pillar of ice to slow enemies and his ultimate sucks power from them."
+      }
+    ]
+  },
+  {
+    "name": "Ursa",
+    "similarities": [
+      {
+        "name": "Warwick",
+        "role": true,
+        "description": "Warwick. Right-clicking enemy champions to death."
+      },
+      {
+        "name": "Volibear",
+        "role": true,
+        "description": "Volibear is simple bear. He sees enemy, he runs into him and kills him."
+      },
+      {
+        "name": "Udyr",
+        "skills": true,
+        "role": true,
+        "description": "Udyr is right click hero who can swipe enemy in Tiger stance."
+      }
+    ]
+  },
+  {
+    "name": "Venomancer",
+    "similarities": [
+      {
+        "name": "Brand",
+        "role": true,
+        "description": "If you like tick damage."
+      },
+      {
+        "name": "Heimerdinger",
+        "skills": true,
+        "description": "If you like to place those plague wards."
+      }
+    ]
+  },
+  {
+    "name": "Viper",
+    "similarities": [
+      {
+        "name": "Kog'Maw",
+        "role": true,
+        "theme": true,
+        "description": "Spit your enemies with poison to death."
+      },
+      {
+        "name": "Kayle",
+        "role": true,
+        "description": "Kayle is mostly right click champion who gathers her power throughout the game."
+      }
+    ]
+  },
+  {
+    "name": "Visage",
+    "similarities": [
+      {
+        "name": "Kalista",
+        "description": "Kalista can be a Marksman for Visage player as she requires good micro skill and positioning."
+      }
+    ]
+  },
+  {
+    "name": "Warlock",
+    "similarities": [
+      {
+        "name": "Annie",
+        "skills": true,
+        "description": "Annie can summon her bear and stun enemies just like Warlock."
+      }
+    ]
+  },
+  {
+    "name": "Weaver",
+    "similarities": [
+      {
+        "name": "Ekko",
+        "skills": true,
+        "description": "Ekko is mobile assasin who has similar ultimate to Weaver."
+      },
+      {
+        "name": "Kha'Zix",
+        "skills": true,
+        "description": "Kha'Zix can sneak around enemies similar to Weaver's Shukuchi."
+      }
+    ]
+  },
+  {
+    "name": "Windranger",
+    "similarities": [
+      {
+        "name": "Quinn",
+        "role": true,
+        "description": "Quinn is a mobile Marksman who can blind her enemies."
+      },
+      {
+        "name": "Lucian",
+        "role": true,
+        "description": "Lucian can dance around enemies and shoot them to death."
+      },
+      {
+        "name": "Ezreal",
+        "role": true,
+        "description": "Ezreal is a mobile Marksman who has mixed magical and physical damage."
+      },
+      {
+        "name": "Jinx",
+        "skills": true,
+        "description": "Jinx has high attack speed and similar skillsot on W."
+      }
+    ]
+  },
+  {
+    "name": "Winter Wyvern",
+    "similarities": [
+      {
+        "name": "Anivia",
+        "theme": true
+      }
+    ]
+  },
+  {
+    "name": "Witch Doctor",
+    "similarities": [
+      {
+        "name": "Sona",
+        "skills": true,
+        "role": true,
+        "description": "Sona can heal her allies, can dish out solid damage and has powerful ultimate."
+      },
+      {
+        "name": "Nami",
+        "role": true,
+        "description": "Nami heals her allies and disables her enemies."
+      }
+    ]
+  },
+  {
+    "name": "Wraith King",
+    "similarities": [
+      {
+        "name": "Tryndamere",
+        "role": true,
+        "description": "Tryndamere is dangerous in close combat and can postpone his death."
+      },
+      {
+        "name": "Master Yi",
+        "skills": true,
+        "description": "Master Yi."
+      }
+    ]
+  },
+  {
+    "name": "Zeus",
+    "similarities": [
+      {
+        "name": "Karthus",
+        "skills": true,
+        "description": "Karthus has similar ultimate that scales really well into late game."
+      },
+      {
+        "name": "Ryze",
+        "role": true
+      },
+      {
+        "name": "Ziggs",
+        "role": true
+      },
+      {
+        "name": "Xerath",
+        "role": true,
+        "theme": true
       }
     ]
   }
