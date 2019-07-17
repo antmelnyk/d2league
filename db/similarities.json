@@ -112,8 +112,9 @@
         "role": true
       },
       {
-        "name": "Warwick",
-        "role": true
+        "name": "Pantheon",
+        "role": true,
+        "skills": true
       }
     ]
   },
@@ -132,8 +133,10 @@
     "name": "Brewmaster",
     "similarities": [
       {
-        "name": "Riven",
-        "description": "There isn't champion similar to Brewmaster with his 3 unit ultimate. Yet if you like some challenge League has quite a lot of mechanically complicated champions. Riven likes to fight too and can be the monster when mastered."
+        "name": "Gragas",
+        "role": true,
+        "theme": true,
+        "description": "Gragas may not have the ability to split into 3 spirits... yet the love for booze may have it's place too..."
       }
     ]
   },
@@ -144,6 +147,11 @@
         "name": "Galio",
         "role": true,
         "description": "Galio is a great choice for those who like to protect their friends."
+      },
+      {
+        "name": "Maokai",
+        "theme": true,
+        "description": "Forest for the trees."
       }
     ]
   },
@@ -178,6 +186,12 @@
     "name": "Timbersaw",
     "similarities": [
       {
+        "name": "Rumble",
+        "skills": true,
+        "theme": true,
+        "description": "Rumble may be a little bit less crazy then Timber, but certainly creates more chaos on the battlefield."
+      },
+      {
         "name": "Qiyana",
         "skills": true,
         "description": "Despite not being as tanky as Timbersaw, Qiyana can interact with walls, river and bushes. She can throw her disk and delete enemies just like good old Timber."
@@ -191,18 +205,6 @@
         "name": "Illaoi",
         "role": true,
         "description": "Bristleback probably would fit nice into League's roster. By his nature he is true Juggernaut (champion class). He is hard to kill and he kills hard if you stay near him. League has a lot of unique champions that are similar to Bristleback by role."
-      },
-      {
-        "name": "Garen",
-        "role": true
-      },
-      {
-        "name": "Mordekaiser",
-        "role": true
-      },
-      {
-        "name": "Trundle",
-        "role": true
       }
     ]
   },
@@ -214,6 +216,12 @@
         "skills": true,
         "role": true,
         "theme": true
+      },
+      {
+        "name": "Vi",
+        "skills": true,
+        "role": true,
+        "description": "Vi loves fists fight too and has similar ultimate ability."
       }
     ]
   },
@@ -228,6 +236,182 @@
       {
         "name": "Maokai",
         "role": true
+      }
+    ]
+  },
+  {
+    "name": "Legion Commander",
+    "similarities": [
+      {
+        "name": "Jarvan IV",
+        "role": true,
+        "theme": true
+      }
+    ]
+  },
+  {
+    "name": "Earth Spirit",
+    "similarities": [
+      {
+        "name": "Syndra",
+        "skills": true,
+        "description": "Syndra similarly to Kaolin operates her objects (dark spheres) to control the battlefield."
+      }
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "similarities": [
+      {
+        "name": "Anivia",
+        "skills": true,
+        "theme": true,
+        "description": "Anivia is cryoPhoenix, literally."
+      },
+      {
+        "name": "Vel'Koz",
+        "skills": true
+      }
+    ]
+  },
+  {
+    "name": "Mars",
+    "similarities": [
+      {
+        "name": "Jarvan IV",
+        "skills": true
+      },
+      {
+        "name": "Rumble",
+        "skills": true
+      }
+    ]
+  },
+  {
+    "name": "Anti-Mage",
+    "similarities": [
+      {
+        "name": "Kassadin",
+        "skills": true,
+        "role": true,
+        "description": "In League every champion has blink since 0 min as summoner spell... yet Kassadin has his own too in skill. He is late-game mage who can delete enemies if farmed."
+      }
+    ]
+  },
+  {
+    "name": "Drow Ranger",
+    "similarities": [
+      {
+        "name": "Ashe",
+        "skills": true,
+        "role": true,
+        "theme": true,
+        "description": "Ashe is certainly your choice if you play Drow Ranger."
+      }
+    ]
+  },
+  {
+    "name": "Drow Ranger",
+    "similarities": [
+      {
+        "name": "Ashe",
+        "skills": true,
+        "role": true,
+        "theme": true,
+        "description": "Ashe is certainly your choice if you play Drow Ranger."
+      }
+    ]
+  },
+  {
+    "name": "Juggernaut",
+    "similarities": [
+      {
+        "name": "Master Yi",
+        "skills": true,
+        "role": true,
+        "theme": true,
+        "description": "Master Yi is furious and fast right click hero with very similar skillset."
+      },
+      {
+        "name": "Yasuo",
+        "skills": true,
+        "role": true,
+        "description": "Yasuo is a bit difficult champion to perform yet in right hands his blade cuts enemies like onions."
+      }
+    ]
+  },
+  {
+    "name": "Mirana",
+    "similarities": [
+      {
+        "name": "Nidalee",
+        "skills": true,
+        "role": true,
+        "description": "Nidalee has similar to arrow skillshot and in general her role in game is quite similar to Mirana's."
+      }
+    ]
+  },
+  {
+    "name": "Morphling",
+    "similarities": [
+      {
+        "name": "Kai'Sa",
+        "skills": true,
+        "role": true,
+        "description": "Kai'Sa can't morph her attributes (there is not attributes in League) yet her skills and gameflow is really close to Morphling."
+      }
+    ]
+  },
+  {
+    "name": "Phantom Lancer",
+    "similarities": [
+      {
+        "name": "Azir",
+        "theme": true,
+        "description": "Azir manipulates an army of sand soldiers. His skillset is not even close to Lancer's yet he feels close to him as a champion in general."
+      }
+    ]
+  },
+  {
+    "name": "Vengeful Spirit",
+    "similarities": [
+      {
+        "name": "Morgana",
+        "theme": true,
+        "skills": true,
+        "description": "Morgana is a support too and she has very strong stun similar to Venge's Magic Missile."
+      }
+    ]
+  },
+  {
+    "name": "Vengeful Spirit",
+    "similarities": [
+      {
+        "name": "Morgana",
+        "theme": true,
+        "skills": true,
+        "description": "Morgana is a support too and she has very strong stun similar to Venge's Magic Missile."
+      }
+    ]
+  },
+  {
+    "name": "Abaddon",
+    "similarities": [
+      {
+        "name": "Mordekaiser",
+        "theme": true,
+        "description": "Dark and deathful Mordekaiser is quite similar to Abaddon."
+      }
+    ]
+  },
+  {
+    "name": "Ancient Apparition",
+    "similarities": [
+      {
+        "name": "Lissandra",
+        "skills": true,
+        "theme": true,
+        "description": "Freeze your enemies to death with Lissandra."
       }
     ]
   }
