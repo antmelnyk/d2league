@@ -100,7 +100,8 @@
       {
         "name": "Taric",
         "role": true,
-        "skills": true
+        "skills": true,
+        "description": "Taric is very similar to Omniknight. He protects his allies and makes them invulnerable."
       }
     ]
   },
@@ -109,12 +110,14 @@
     "similarities": [
       {
         "name": "Xin Zhao",
-        "role": true
+        "role": true,
+        "description": "Xin jumps onto enemies without fear isolating unfortunate target to delete it."
       },
       {
         "name": "Pantheon",
         "role": true,
-        "skills": true
+        "skills": true,
+        "description": "Pantheon can be really annoying on lane with his spears."
       }
     ]
   },
@@ -215,13 +218,14 @@
         "name": "Nunu & Willump",
         "skills": true,
         "role": true,
-        "theme": true
+        "theme": true,
+        "description": "Nunu and his friend can create big snowball and tag team with his allies."
       },
       {
         "name": "Vi",
         "skills": true,
         "role": true,
-        "description": "Vi loves fists fight too and has similar ultimate ability."
+        "description": "Vi loves fists fight too and has similar ultimate ability to Walrush Punch."
       }
     ]
   },
@@ -245,7 +249,8 @@
       {
         "name": "Jarvan IV",
         "role": true,
-        "theme": true
+        "theme": true,
+        "description": "Jarvan jumps into enemies closing them inside duelish arena."
       }
     ]
   },
@@ -279,11 +284,8 @@
     "similarities": [
       {
         "name": "Jarvan IV",
-        "skills": true
-      },
-      {
-        "name": "Rumble",
-        "skills": true
+        "skills": true,
+        "description": "Jarvan has his own arena too."
       }
     ]
   },
@@ -377,7 +379,7 @@
       {
         "name": "Mordekaiser",
         "theme": true,
-        "description": "Dark and deathful Mordekaiser is quite similar to Abaddon."
+        "description": "Dark and deathful Mordekaiser with his unique ultimate reminds Abaddon in some ways."
       }
     ]
   },
@@ -389,6 +391,380 @@
         "skills": true,
         "theme": true,
         "description": "Freeze your enemies to death with Lissandra."
+      }
+    ]
+  },
+  {
+    "name": "Arc Warden",
+    "similarities": [
+      {
+        "name": "Shaco",
+        "skills": true,
+        "description": "Shaco is a 'troll' champion that can go invisible and create clone to help him in fight or to juke opponents."
+      }
+    ]
+  },
+  {
+    "name": "Axe",
+    "similarities": [
+      {
+        "name": "Darius",
+        "role": true,
+        "skills": true,
+        "theme": true,
+        "description": "Darius is very similar to Axe with his deadly spin and finisher ultimate."
+        
+      }
+    ]
+  },
+  {
+    "name": "Bane",
+    "similarities": [
+      {
+        "name": "Malzahar",
+        "skills": true,
+        "description": "Malzahar is a mid lane mage who can control hin enemies similar to Bane."
+      }
+    ]
+  },
+  {
+    "name": "Batrider",
+    "similarities": [
+      {
+        "name": "Skarner",
+        "role": true,
+        "skills": true,
+        "description": "Skarner can lasso his enemies too."
+      },
+      {
+        "name": "Singed",
+        "role": true,
+        "skills": true,
+        "description": "Singed runs around fight with his own version of Firefly."
+      }
+    ]
+  },
+  {
+    "name": "Bloodseeker",
+    "similarities": [
+      {
+        "name": "Warwick",
+        "role": true,
+        "skills": true,
+        "description": "Warwick is a bloody hunter. He can smell injured enemies and speed up to finish them just like Bloodseeker."
+      },
+      {
+        "name": "Vladimir",
+        "theme": true,
+        "description": "Vladimir is a blood mage with spells evolving around blood and vampirism."
+      }
+    ]
+  },
+  {
+    "name": "Bounty Hunter",
+    "similarities": [
+      {
+        "name": "Shaco",
+        "role": true,
+        "skills": true,
+        "description": "Shaco has invisibility and his deadly knives to delete squishy enemies."
+      }
+    ]
+  },
+  {
+    "name": "Broodmother",
+    "similarities": [
+      {
+        "name": "Elise",
+        "theme": true,
+        "description": "Elise can transform herself into spider and pop up squishy targets."
+      }
+    ]
+  },
+  {
+    "name": "Chaos Knight",
+    "similarities": [
+      {
+        "name": "Hecarim",
+        "theme": true,
+        "description": "Hecarim is probably closest champion to Chaos Knight if you feel like controlling horse-like hero."
+      }
+    ]
+  },
+  {
+    "name": "Chen",
+    "similarities": [
+      {
+        "name": "Soraka",
+        "skills": true,
+        "description": "They have same ultimate. Yet Soraka can't control creeps and is fully focused around healing her allies."
+      }
+    ]
+  },
+  {
+    "name": "Clinkz",
+    "similarities": [
+      {
+        "name": "Twitch",
+        "role": true,
+        "skills": true,
+        "description": "Twitch can jump out of nowhere and inflict huge attack damage to his enemies."
+      }
+    ]
+  },
+  {
+    "name": "Crystal Maiden",
+    "similarities": [
+      {
+        "name": "Sona",
+        "role": true,
+        "description": "Sona helps her team with aura-spells and has powerful aoe-stun ultimate."
+      },
+      {
+        "name": "Janna",
+        "role": true,
+        "description": "Janna protects her allies with slow and has channeling ultimate that heals allies around her."
+      }
+    ]
+  },
+  {
+    "name": "Dark Seer",
+    "similarities": [
+      {
+        "name": "Amumu",
+        "role": true,
+        "description": "Amumu damages everyone around him and has powerful aoe-stun ultimate."
+      }
+    ]
+  },
+  {
+    "name": "Dark Willow",
+    "similarities": [
+      {
+        "name": "Zyra",
+        "skills": true,
+        "role": true,
+        "theme": true,
+        "description": "Zyra operates her plants to control battlefield, zone enemies and inflict damage."
+      }
+    ]
+  },
+  {
+    "name": "Dazzle",
+    "similarities": [
+      {
+        "name": "Soraka",
+        "skills": true,
+        "role": true,
+        "description": "Soraka is main healer in League while at the same time being one of few champions that have silence in their spells."
+      }
+    ]
+  },
+  {
+    "name": "Death Prophet",
+    "similarities": [
+      {
+        "name": "Fiddlesticks",
+        "skills": true,
+        "description": "Fiddlesticks can seem a bit weird champion at first glance yet he has powerful ultimate similar to Death Prophet and he can suck life from his enemies (literally)."
+      },
+      {
+        "name": "Swain",
+        "skills": true,
+        "description": "Swain has similar playstyle and ultimate."
+      }
+    ]
+  },
+  {
+    "name": "Disruptor",
+    "similarities": [
+      {
+        "name": "Bard",
+        "role": true,
+        "description": "Bard is very unique champion and he acts like disruptor for enemy champions in some way. He can create holes through walls on the map and control battlefield with his aoe-stasis ultimate and Shackleshot-like stun."
+      }
+    ]
+  },
+  {
+    "name": "Doom",
+    "similarities": [
+      {
+        "name": "Mordekaiser",
+        "skills": true,
+        "role": true,
+        "description": "Mordekaiser can isolate his target in separate existence where nothing can help his victim."
+      }
+    ]
+  },
+  {
+    "name": "Ember Spirit",
+    "similarities": [
+      {
+        "name": "Yasuo",
+        "role": true,
+        "description": "Leaue doesn't have quite copy of Ember yet Yasuo might be closest to him. It's skill-dependent melee figher who dashes around enemies."
+      }
+    ]
+  },
+  {
+    "name": "Enchantress",
+    "similarities": [
+      {
+        "name": "Nidalee",
+        "role": true,
+        "description": "Nidalee can't enchant creatures yet she can use her deadly spear to delete enemies and transform herself info puma."
+      }
+    ]
+  },
+  {
+    "name": "Enigma",
+    "similarities": [
+      {
+        "name": "Amumu",
+        "skills": true,
+        "role": true,
+        "description": "Amumu has similar devastating aoe-ultimate and he can toggle on/off Midnignt Pulse around himself."
+      },
+      {
+        "name": "Malzahar",
+        "theme": true,
+        "description": "Stare into the abyss."
+      }
+    ]
+  },
+  {
+    "name": "Faceless Void",
+    "similarities": [
+      {
+        "name": "Jax",
+        "role": true,
+        "description": "Jax is powerful melee fighter who can jump around and stun enemies."
+      }
+    ]
+  },
+  {
+    "name": "Grimstroke",
+    "similarities": [
+      {
+        "name": "Lulu",
+        "skills": true,
+        "role": true,
+        "description": "Lulu can disable her enemies and buff her allies. Her spells have different effect depending on target."
+      }
+    ]
+  },
+  {
+    "name": "Gyrocopter",
+    "similarities": [
+      {
+        "name": "Corki",
+        "role": true,
+        "theme": true,
+        "description": "League has his own Gyrocopter too. He has different skillset yet in general they are very similar."
+      }
+    ]
+  },
+  {
+    "name": "Invoker",
+    "similarities": [
+      {
+        "name": "LeBlanc",
+        "role": true,
+        "description": "LeBlanc can cast a lot of combos combining her spells. Her ultimate copies her previous casted basic skill."
+      },
+      {
+        "name": "Orianna",
+        "role": true,
+        "description": "Orianna operates her orb in many ways to control battlefield."
+      },
+      {
+        "name": "Taliyah",
+        "role": true,
+        "description": "Taliyah is a stone mage. She requires high micro skills and can ride walls (literally)."
+      },
+      {
+        "name": "Katarina",
+        "role": true,
+        "description": "Katarina performs fast combos and skill resets to delete enemies in fight."
+      }
+    ]
+  },
+  {
+    "name": "Jakiro",
+    "similarities": [
+      {
+        "name": "Rumble",
+        "role": true,
+        "description": "Rumble isn't a dragon yet his burn spells and Macropyre-like ultimate feels like Jakiro in some ways."
+      },
+      {
+        "name": "Shyvana",
+        "theme": true,
+        "description": "Dragon's breath!"
+      }
+    ]
+  },
+  {
+    "name": "Keeper of the Light",
+    "similarities": [
+      {
+        "name": "Zilean",
+        "role": true,
+        "description": "Zilean is all about time. He can do some legit damage with his time bombs and also help his teammates with experience or give them free Aegis of Immortality from Dota for several seconds."
+      }
+    ]
+  },
+  {
+    "name": "Leshrac",
+    "similarities": [
+      {
+        "name": "Anivia",
+        "role": true,
+        "description": "Anivia can stun and damage opponents with magic similar to Leshrac. She can also revive from egg once killed!"
+      }
+    ]
+  },
+  {
+    "name": "Lich",
+    "similarities": [
+      {
+        "name": "Brand",
+        "skills": true,
+        "role": true,
+        "description": "They have similar ultimates and also a lot of magical damage output."
+      }
+    ]
+  },
+  {
+    "name": "Lifestealer",
+    "similarities": [
+      {
+        "name": "Olaf",
+        "role": true,
+        "skills": true,
+        "description": "Olaf is a raging meat that can turn on his rage mode (similar to Lifestealer's Q) and has more lifesteal and attack speed the less health he has."
+      }
+    ]
+  },
+  {
+    "name": "Lina",
+    "similarities": [
+      {
+        "name": "Annie",
+        "role": true,
+        "skills": true,
+        "description": "Annie is a fire mage who can delete her enemies with her powerful fire spells and her friend Tibbers..."
+      }
+    ]
+  },
+  {
+    "name": "Lion",
+    "similarities": [
+      {
+        "name": "Lulu",
+        "role": true,
+        "skills": true,
+        "description": "Lulu doesn't have deadly finger yet she has hex on her W too and she is playing similar disabler role as Lion."
       }
     ]
   }
