@@ -311,18 +311,6 @@
     ]
   },
   {
-    "name": "Drow Ranger",
-    "similarities": [
-      {
-        "name": "Ashe",
-        "skills": true,
-        "role": true,
-        "theme": true,
-        "description": "Ashe is certainly your choice if you play Drow Ranger."
-      }
-    ]
-  },
-  {
     "name": "Juggernaut",
     "similarities": [
       {
@@ -369,17 +357,6 @@
         "name": "Azir",
         "theme": true,
         "description": "Azir manipulates an army of sand soldiers. His skillset is not even close to Lancer's yet he feels close to him as a champion in general."
-      }
-    ]
-  },
-  {
-    "name": "Vengeful Spirit",
-    "similarities": [
-      {
-        "name": "Morgana",
-        "theme": true,
-        "skills": true,
-        "description": "Morgana is a support too and she has very strong stun similar to Venge's Magic Missile."
       }
     ]
   },
