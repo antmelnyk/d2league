@@ -1154,12 +1154,12 @@
         "name": "Lux",
         "role": true,
         "skills": true,
-        "description": "If you like do delete enemies with ultimate."
+        "description": "If you like to delete enemies with ultimate."
       },
       {
         "name": "Zoe",
         "role": true,
-        "description": "Zoe is simple champion at first glance yet she has huge potential of outplaying enemies."
+        "description": "Zoe is a simple champion at first glance yet she has huge potential of outplaying enemies."
       }
     ]
   },
