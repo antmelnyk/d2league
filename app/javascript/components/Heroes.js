@@ -3,6 +3,7 @@ import { connect } from "react-redux"
 
 import { suggestChampions } from "../actions/champions"
 import { fetchHeroes } from "../actions/heroes"
+
 import Spinner from "./Spinner"
 import Hero from "./Hero"
 

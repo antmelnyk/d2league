@@ -19,15 +19,14 @@ class SuggestionResults extends React.Component {
   handleReset() {
     setTimeout(() => {
       window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-    }, 100)
+    }, 30);
     this.props.clearSelectedHeroes()
   }
 
   componentDidUpdate() {
-    setTimeout(() => {
-      window.scrollTo({ top: this.resultsRef.current.offsetTop, left: 0, behavior: 'smooth' })
-    })
-  }
+    if(this.props.champions.length != 0 || this.props.isFetching)
+      this.resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start', })
+  }      
 
   render () {
     const champions = <ul className="champions">

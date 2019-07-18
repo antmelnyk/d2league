@@ -16,17 +16,16 @@ class Hero extends React.Component {
   }
   
   render () {
-    const selected = this.props.selected ? 'hero--selected' : ''
-    const visible = this.props.visible ? '' : 'hero--hidden'
-    const classes = `hero ${selected} ${visible}`
+    const { selected, visible, id, name } = this.props
+    const classes = `hero ${selected ? 'hero--selected' : ''} ${visible ? '' : 'hero--hidden'}`
 
     return (
-      <li className={classes} onClick={this.handleClick.bind(this, this.props.id)}>
+      <li className={classes} onClick={this.handleClick.bind(this, id)}>
         <LazyLoadImage
           className="hero__image"
-          title={this.props.name}
+          title={name}
           effect="opacity"
-          src={`assets/dota_heroes/${this.props.name}.png`} />
+          src={`assets/dota_heroes/${name}.png`} />
       </li>
     );
   }

@@ -23,11 +23,12 @@ class Champion extends React.Component {
   }
 
   render () {
+    const { heroes, similarity_info, champion_info } = this.props
 
     const skillsAreVisible = this.state.skillsAreVisible ? '' : 'champion__skills--hidden'
     const championSkillsClasses = `champion__skills ${skillsAreVisible}`
 
-    const similarHero = this.props.heroes.find(hero => hero.id == this.props.similarity_info.hero_id)   
+    const similarHero = heroes.find(hero => hero.id == similarity_info.hero_id)   
 
     return (
       <li className="champion border-gold">
@@ -36,13 +37,13 @@ class Champion extends React.Component {
 
           <LazyLoadImage
             className="champion__image"
-            title={this.props.champion_info.name}
+            title={champion_info.name}
             effect="opacity"
-            src={`assets/league_champs/${this.props.champion_info.name}.png`} />
+            src={`assets/league_champs/${champion_info.name}.png`} />
             
           <div className="champion__info">
             <div className="champion__title">
-              {this.props.champion_info.name}
+              {champion_info.name}
               <div className="champion__similar-to">
                 (because you like 
                   <LazyLoadImage
@@ -54,24 +55,24 @@ class Champion extends React.Component {
             </div>
 
             <div className="champion__role">
-              <img src={`assets/champs_roles/${this.props.champion_info.role}.png`} />
-              {this.props.champion_info.role}
+              <img src={`assets/champs_roles/${champion_info.role}.png`} />
+              {champion_info.role}
             </div>
 
             <div className="champion__similarities">
               <div className="champion__similar-by"> 
-                { this.props.similarity_info.role ? "Similar role in game" : "" }
+                { similarity_info.role ? "Similar role in game" : "" }
               </div>
               <div className="champion__similar-by"> 
-                { this.props.similarity_info.skills ? "Similar skills or mechanics" : "" }
+                { similarity_info.skills ? "Similar skills or mechanics" : "" }
               </div>
               <div className="champion__similar-by"> 
-                { this.props.similarity_info.theme ? "Similar theme or visuals" : "" }
+                { similarity_info.theme ? "Similar theme or visuals" : "" }
               </div>
             </div>
 
             <div className="champion__description">
-              {this.props.similarity_info.description}
+              {similarity_info.description}
             </div>
           </div>
 
@@ -82,8 +83,8 @@ class Champion extends React.Component {
             { this.state.skillsAreVisible ? "Hide" : "Show" } skills
           </div>
           {['passive', 'q', 'w', 'e', 'r'].map((skill, index) => (
-            <Skill champion={this.props.champion_info.name} type={skill} name={this.props.champion_info[skill]}
-            description={this.props.champion_info[`${skill}_description`]} key={index} />
+            <Skill champion={champion_info.name} type={skill} name={champion_info[skill]}
+            description={champion_info[`${skill}_description`]} key={index} />
           ))}
         </div>
 
