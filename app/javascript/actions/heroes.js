@@ -3,7 +3,9 @@ import {
   REQUEST_HEROES,
   RECEIVE_HEROES,
   SELECT_HERO,
-  DESELECT_HERO
+  DESELECT_HERO,
+  CLEAR_SELECTED_HEROES,
+  CLEAR_SUGGESTION_RESULTS
 } from './actionTypes';
 
 export function fetchHeroes() {
@@ -35,5 +37,16 @@ export function deselectHero(hero_id) {
   return {
     type: DESELECT_HERO,
     hero_id
+  }
+}
+
+export function clearSelectedHeroes() {
+  return function (dispatch) {   
+    dispatch({ 
+      type: CLEAR_SELECTED_HEROES
+    })
+    dispatch({ 
+      type: CLEAR_SUGGESTION_RESULTS
+    })
   }
 }

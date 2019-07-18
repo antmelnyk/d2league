@@ -1,5 +1,4 @@
 import React from "react"
-import { connect } from "react-redux"
 
 import Heroes from "../Heroes"
 import SuggestionResults from "../SuggestionResults"

@@ -1,7 +1,13 @@
+@import 'variables'
+
 .skill
   display: flex
   align-items: flex-start
   margin-bottom: 20px
+  @media screen and (max-width: $break-mobile)
+    display: block
+    > span
+      float: left
 
   &__image
     width: 45px
@@ -10,6 +16,10 @@
 
   &__name
     font-size: 20px
+    @media screen and (max-width: $break-mobile)
+      font-size: 16px
 
   &__description
     font-size: 16px
+    @media screen and (max-width: $break-mobile)
+      font-size: 14px

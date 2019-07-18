@@ -2,7 +2,8 @@ import {
   REQUEST_HEROES,
   RECEIVE_HEROES,
   SELECT_HERO,
-  DESELECT_HERO
+  DESELECT_HERO,
+  CLEAR_SELECTED_HEROES
 } from '../actions/actionTypes'
 
 const MAX_HEROES_SELECTED = 5
@@ -31,6 +32,9 @@ export function heroesReducer(state = initialState, action) {
 
     case DESELECT_HERO:
       return { ...state, selected: state.selected.filter(hero_id => hero_id !== action.hero_id) }
+
+    case CLEAR_SELECTED_HEROES:
+      return { ...state, selected: [] }
   }
 
   return state;

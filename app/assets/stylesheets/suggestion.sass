@@ -1,4 +1,10 @@
+@import 'variables'
+
 .suggestion
   display: flex
-  padding-top: 30px
+  
+  @media screen and (max-width: $break-mobile)
+    flex-direction: column
+    padding: 0
+  
   

@@ -58,6 +58,8 @@ GEM
       zeitwerk (~> 2.1, >= 2.1.4)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    autoprefixer-rails (9.6.1)
+      execjs
     babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
@@ -214,6 +216,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)

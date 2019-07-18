@@ -1,7 +1,15 @@
+@import  'variables'
+
 .heroes-container
-  min-width: 400px
-  max-width: 400px
+  min-width: $heroes-container-width
+  max-width: $heroes-container-width
   min-height: 940px
+  padding-top: 50px
+  @media screen and (max-width: $break-mobile)
+    min-width: 0
+    max-width: none
+    padding-top: 0
+
 
 .heroes-actions
   input
@@ -10,20 +18,22 @@
     color: white
     font-size: 18px
     border: none
-    border-bottom: 2px solid rgba(255, 255, 255, .5)
-  button
-    font-size: 18px
-    width: 100%
-    padding: 7px
-    margin: 15px 0 30px 0
+    border-bottom: 2px solid rgba(255, 255, 255, .5)    
+  @media screen and (max-width: $break-mobile)
+    position: sticky
+    top: 0
+    background: rgba(0, 0, 0, .8)
+    padding: 15px
+    z-index: 1
     
 .heroes
   display: flex
   justify-content: center
   flex-wrap: wrap
-  margin: 0
+  margin: 20px 0
   padding: 0
   width: 100%
+  user-select: none
 
 .hero
   list-style-type: none
@@ -40,6 +50,9 @@
     cursor: pointer
     &:hover
       transform: scale(1.5)
+    @media screen and (max-width: $break-mobile)
+      width: 64px
+      height: 64px
 
 .hero--selected
   .hero__image

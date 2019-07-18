@@ -1,6 +1,7 @@
 import {
   SUGGEST_CHAMPIONS,
-  RECEIVE_SIMILARITIES
+  RECEIVE_SIMILARITIES,
+  CLEAR_SUGGESTION_RESULTS
 } from '../actions/actionTypes'
 
 const initialState = {
@@ -16,6 +17,9 @@ export function championsReducer(state = initialState, action) {
 
     case RECEIVE_SIMILARITIES: 
       return { list: action.similarities, isFetching: false };
+
+    case CLEAR_SUGGESTION_RESULTS:
+      return initialState;
 
   }
   return state;
