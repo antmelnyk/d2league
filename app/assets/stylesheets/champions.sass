@@ -40,13 +40,14 @@
 
   &__image
     display: inline-block
-    flex-shrink: 0
+    min-width: 120px
     float: left
     margin-right: 10px
     img
       width: 120px
       height: 120px
     @media screen and (max-width: $break-mobile)
+      min-width: 88px
       img
         width: 88px
         height: 88px
@@ -87,8 +88,13 @@
     display: flex
     align-items: center
     font-size: 18px
-    img
-      margin-right: 5px
+
+  &__role-icon
+    min-width: 20px
+    min-height: 20px
+    margin-right: 5px
+    span
+      margin-top: 5px
   
   &__similarities
     margin-top: 10px

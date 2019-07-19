@@ -39,7 +39,6 @@ class Champion extends React.Component {
             <LazyLoadImage
               title={champion_info.name}
               effect="opacity"
-              placeholderSrc="assets/league_champs/Sona.png"
               src={`assets/league_champs/${champion_info.name}.png`} />
           </div>
           
@@ -62,8 +61,13 @@ class Champion extends React.Component {
             </div>
 
             <div className="champion__role">
-              <img src={`assets/champs_roles/${champion_info.role}.png`} />
-              {champion_info.role}
+              <span className="champion__role-icon">
+                <LazyLoadImage
+                  title={champion_info.role}
+                  effect="opacity"
+                  src={`assets/champs_roles/${champion_info.role}.png`} />
+              </span>
+              <span>{champion_info.role}</span>
             </div>
 
             <div className="champion__similarities">
