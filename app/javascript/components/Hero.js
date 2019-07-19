@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { connect } from "react-redux"
 
 import { LazyLoadImage } from 'react-lazy-load-image-component'
-import 'react-lazy-load-image-component/src/effects/opacity.css'
 
 import { selectHero, deselectHero } from "../actions/heroes"
 
