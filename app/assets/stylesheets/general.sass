@@ -20,7 +20,10 @@ a
 .app-wrapper
   min-height: 100vh
   background: rgba(0, 0, 0, .7)
-  overflow-x: hidden
+  display: flex
+  flex-direction: column
+  @media screen and (min-width: $break-mobile)
+    overflow-x: hidden
 
 .container
   max-width: $container-width

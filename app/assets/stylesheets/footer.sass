@@ -1,0 +1,51 @@
+.footer 
+  background: rgba(0, 0, 0, 0.5)
+  padding: 15px
+
+  .container
+    display: flex
+
+    a
+      font-size: 14px
+      color: white
+      margin-left: 30px
+      border-bottom: 1px dotted transparent
+
+      &:visited
+        color: white
+      
+      &:hover
+        border-bottom: 1px dotted white
+
+    .footer__disclaimer
+      margin-right: auto
+      font-size: 14px
+      opacity: 0.5
+      border-bottom: 1px dotted transparent
+
+    .footer__donation
+      margin-left: auto
+
+    .footer__source
+      display: flex
+      align-items: center
+      
+      img
+        width: 15px
+        margin-left: 4px
+
+  @media screen and (max-width: 1160px)
+    .container
+      flex-direction: column
+      align-items: center
+      justify-content: center
+
+      .footer__disclaimer
+        margin: 0 0 15px 0
+        text-align: center
+
+      a
+        margin: 0
+        padding-bottom: 8px
+        &:hover
+          border-bottom: 1px dotted transparent
