@@ -34,6 +34,9 @@ class Champion extends React.Component {
 
     const descriptions = similarity_info.description
       .map(desc => <div className="champion__description">{desc}</div>)
+
+    const championRoleLink = `https://leagueoflegends.fandom.com/wiki/Category:${champion_info.role}_champion`
+    const championLink = `https://leagueoflegends.fandom.com/wiki/${champion_info.name}` 
         
      
     return (
@@ -52,9 +55,12 @@ class Champion extends React.Component {
           <div className="champion__info">
             <div className="champion__title">
               
-              <span className="champion__name">
-                {champion_info.name}
-              </span>
+              <a 
+                className="champion__name"
+                target="_blank"
+                href={championLink}>
+                  {champion_info.name}
+              </a>
 
               <span className="champion__similar-to">
                 <span>(because you like</span>
@@ -73,7 +79,9 @@ class Champion extends React.Component {
                   effect="opacity"
                   src={`assets/champs_roles/${champion_info.role}.png`} />
               </span>
-              <span>{champion_info.role}</span>
+              <a target="_blank" href={ championRoleLink }>
+                {champion_info.role}
+              </a>
             </div>
 
             <div className="champion__similarities">
