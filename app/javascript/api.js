@@ -5,7 +5,7 @@ export default class API {
 
   static suggestChampions(heroes) {
     const url = 'api/suggest_champions?'
-    return fetch('api/suggest_champions?' + formArrayQuerystring(heroes, 'heroes'))
+    return fetch(url + formArrayQuerystring(heroes, 'heroes'))
   }
 }
 
