@@ -35,23 +35,27 @@ class Champion extends React.Component {
 
         <div className="champion__header">
 
-          <LazyLoadImage
-            className="champion__image"
-            title={champion_info.name}
-            effect="opacity"
-            src={`assets/league_champs/${champion_info.name}.png`} />
+          <div className="champion__image">
+            <LazyLoadImage
+              title={champion_info.name}
+              effect="opacity"
+              placeholderSrc="assets/league_champs/Sona.png"
+              src={`assets/league_champs/${champion_info.name}.png`} />
+          </div>
+          
             
           <div className="champion__info">
             <div className="champion__title">
               {champion_info.name}
+
               <div className="champion__similar-to">
-                (because you like 
-                  <LazyLoadImage
-                    title={similarHero.name}
-                    effect="opacity"
-                    src={`assets/dota_heroes/${similarHero.name}.png`} />
-                )
+                <span>(because you like</span>
+                  <div className="similar-heroes">
+                    <img src={`assets/dota_heroes/${similarHero.name}.png`} />
+                  </div>
+                <span>)</span>
               </div>
+
             </div>
 
             <div className="champion__role">

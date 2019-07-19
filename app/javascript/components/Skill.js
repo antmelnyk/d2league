@@ -11,11 +11,12 @@ class Skill extends React.Component {
     return (
       <div className="skill">
         
-        <LazyLoadImage
-          className="skill__image"
-          title={name}
-          effect="opacity"
-          src={`assets/champs_skills/${champion}/${type.toUpperCase().charAt(0)}.png`} />
+        <div className="skill__image">
+          <LazyLoadImage
+            title={name}
+            effect="opacity"
+            src={`assets/champs_skills/${champion}/${type.toUpperCase().charAt(0)}.png`} />
+        </div>
 
         <div className="skill__info">
           <div className="skill__name">
