@@ -3,10 +3,9 @@ import {
   RECEIVE_HEROES,
   SELECT_HERO,
   DESELECT_HERO,
-  CLEAR_SELECTED_HEROES
+  CLEAR_SELECTED_HEROES,
+  MAX_HEROES_SELECTED
 } from '../actions/actionTypes'
-
-const MAX_HEROES_SELECTED = 5
 
 const initialState = {
   list: [],

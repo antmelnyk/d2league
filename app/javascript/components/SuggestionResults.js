@@ -5,6 +5,7 @@ import Spinner from "./Spinner"
 import Champion from "./Champion"
 
 import { clearSelectedHeroes } from "../actions/heroes"
+import { MAX_HEROES_SELECTED } from "../actions/actionTypes"
 
 class SuggestionResults extends React.Component {
 
@@ -38,7 +39,7 @@ class SuggestionResults extends React.Component {
     return (
       <div className="suggestion-results-container" ref={this.resultsRef}>
         <div className="suggestion-results-container__hint">
-          { this.props.champions.length == 0 ? "Select up to 5 Dota 2 heroes and click Suggest button!" : "" }
+          { this.props.champions.length == 0 ? `Select up to ${MAX_HEROES_SELECTED} Dota 2 heroes and click Suggest button!` : "" }
         </div>
         { this.props.isFetching ? <Spinner /> : champions }
 
