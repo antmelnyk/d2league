@@ -12,10 +12,7 @@ class Skill extends React.Component {
       <div className="skill">
         
         <div className="skill__image">
-          <LazyLoadImage
-            title={name}
-            effect="opacity"
-            src={`assets/champs_skills/${champion}/${type.toUpperCase().charAt(0)}.png`} />
+          <img src={`assets/champs_skills/${champion}/${type.toUpperCase().charAt(0)}.png`} />
         </div>
 
         <div className="skill__info">
