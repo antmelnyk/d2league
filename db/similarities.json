@@ -139,6 +139,11 @@
         "skills": true,
         "role": true,
         "description": "Despite not being farm-machine Dr. Mundo can also turn his chemical rage-mode with regeneration and is quite dangerous target for enemy to approach."
+      },
+      {
+        "name": "Gangplank",
+        "skills": true,
+        "description": "Gangplank can collect additional silver coins from creeps and enemies. Then he can upgrade his ultimate with them!"
       }
     ]
   },
@@ -241,7 +246,7 @@
         "name": "Vi",
         "skills": true,
         "role": true,
-        "description": "Vi loves fists fight too and has similar ultimate ability to Walrush Punch."
+        "description": "Vi loves fists fight too and has similar to Walrush Punch ultimate ability."
       }
     ]
   },
@@ -318,6 +323,11 @@
         "skills": true,
         "role": true,
         "description": "In League every champion has blink since 0 min as summoner spell... yet Kassadin has his own too in skill. He is late-game mage who can delete enemies if farmed."
+      },
+      {
+        "name": "Sivir",
+        "skills": true,
+        "description": "Sivir is a carry that can block enemy spells."
       }
     ]
   },
@@ -330,6 +340,14 @@
         "role": true,
         "theme": true,
         "description": "Ashe is certainly your choice if you play Drow Ranger."
+      },
+      {
+        "name": "Vayne",
+        "role": true
+      },
+      {
+        "name": "Varus",
+        "role": true
       }
     ]
   },
@@ -367,6 +385,11 @@
         "skills": true,
         "role": true,
         "description": "Nidalee has similar to arrow skillshot and in general her role in game is quite similar to Mirana's."
+      },
+      {
+        "name": "Sejuani",
+        "theme": true,
+        "description": "Sejuani mounts a beast and her ultimate is a stun-skillshot."
       }
     ]
   },
@@ -464,7 +487,7 @@
       {
         "name": "Shen",
         "role": true,
-        "description": "Shen taunts enemies similar to Axe."
+        "description": "Shen can taunt enemies and can teleport to his alles with ultimate."
       }
     ]
   },
@@ -485,7 +508,7 @@
         "name": "Skarner",
         "role": true,
         "skills": true,
-        "description": "Skarner can lasso his enemies too."
+        "description": "Skarner can lasso his enemies too!"
       },
       {
         "name": "Singed",
@@ -534,6 +557,11 @@
         "name": "Elise",
         "theme": true,
         "description": "Elise can transform herself into spider and pop up squishy targets."
+      },
+      {
+        "name": "Yorick",
+        "skills": true,
+        "description": "Yorick can summon an army of zombies and can push lanes very fast."
       }
     ]
   },
@@ -553,7 +581,12 @@
       {
         "name": "Soraka",
         "skills": true,
-        "description": "They have same ultimate. Yet Soraka can't control creeps and is fully focused around healing her allies."
+        "description": "Soraka has same ultimate as Chen. Yet Soraka can't control creeps and is fully focused around healing her allies."
+      },
+      {
+        "name": "Ivern",
+        "role": true,
+        "description": "Ivern can support from the jungle with his friend Daisy."
       }
     ]
   },
@@ -602,6 +635,10 @@
         "role": true,
         "theme": true,
         "description": "Zyra operates her plants to control battlefield, zone enemies and inflict damage."
+      },
+      {
+        "name": "Lulu",
+        "role": true
       }
     ]
   },
@@ -653,6 +690,10 @@
         "skills": true,
         "role": true,
         "description": "Mordekaiser can isolate his target in separate existence where nothing can help his victim."
+      },
+      {
+        "name": "Aatrox",
+        "theme": true
       }
     ]
   },
@@ -663,6 +704,10 @@
         "name": "Yasuo",
         "role": true,
         "description": "Leaue doesn't have quite copy of Ember yet Yasuo might be closest to him. It's skill-dependent melee figher who dashes around enemies."
+      },
+      {
+        "name": "Zed",
+        "role": true
       }
     ]
   },
@@ -750,7 +795,7 @@
       {
         "name": "Viktor",
         "role": true,
-        "description": "Viktor is a skill dependet mage with versatile skillset."
+        "description": "Viktor is a skill dependent mage with versatile skillset."
       }
     ]
   },
@@ -1007,6 +1052,14 @@
         "role": true,
         "skills": true,
         "description": "Yasuo is a more assassinish variant of Phantom Assassin. His kit evolves around critical damage and dashes between enemies."
+      },
+      {
+        "name": "Zed",
+        "role": true
+      },
+      {
+        "name": "Rengar",
+        "role": true
       }
     ]
   },
@@ -1024,6 +1077,10 @@
         "role": true,
         "skills": true,
         "description": "Lissandra is a battle mage who can teleport herself similar to Puck's orb and she has great AOE skills."
+      },
+      {
+        "name": "Aurelion Sol",
+        "role": true
       }
     ]
   },
@@ -1094,7 +1151,7 @@
         "name": "Akali",
         "role": true,
         "skills": true,
-        "description": "Akali can pop smoke and assassinate squishes from it."
+        "description": "Akali can pop up the smoke and assassinate squishes from it."
       },
       {
         "name": "Evelynn",
@@ -1148,7 +1205,7 @@
       {
         "name": "Ahri",
         "role": true,
-        "description": "Outplayed."
+        "description": "Ahri charms... and outplays her enemies."
       },
       {
         "name": "Lux",

@@ -28,8 +28,14 @@ class Champion extends React.Component {
     const skillsAreVisible = this.state.skillsAreVisible ? '' : 'champion__skills--hidden'
     const championSkillsClasses = `champion__skills ${skillsAreVisible}`
 
-    const similarHero = heroes.find(hero => hero.id == similarity_info.hero_id)   
+    const similarHeroes = heroes
+      .filter(hero => similarity_info.hero_id.includes(hero.id))
+      .map(similarHero => <img key={similarHero.id} src={`assets/dota_heroes/${similarHero.name}.png`} />)
 
+    const descriptions = similarity_info.description
+      .map(desc => <div className="champion__description">{desc}</div>)
+        
+     
     return (
       <li className="champion border-gold">
 
@@ -53,7 +59,7 @@ class Champion extends React.Component {
               <span className="champion__similar-to">
                 <span>(because you like</span>
                   <div className="similar-heroes">
-                    <img src={`assets/dota_heroes/${similarHero.name}.png`} />
+                    {similarHeroes}
                   </div>
                 <span>)</span>
               </span>
@@ -82,9 +88,7 @@ class Champion extends React.Component {
               </div>
             </div>
 
-            <div className="champion__description">
-              {similarity_info.description}
-            </div>
+            {descriptions}
           </div>
 
         </div>
@@ -107,7 +111,7 @@ class Champion extends React.Component {
 Champion.propTypes = {
   similarity_info: PropTypes.shape({
     id: PropTypes.number,
-    hero_id: PropTypes.number,
+    hero_id: PropTypes.array,
     champion_id: PropTypes.number,
     role: PropTypes.boolean,
     skills: PropTypes.boolean,

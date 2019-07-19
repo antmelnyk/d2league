@@ -15,7 +15,7 @@ export function championsReducer(state = initialState, action) {
     case SUGGEST_CHAMPIONS:
       return { ...state, isFetching: true }
 
-    case RECEIVE_SIMILARITIES: 
+    case RECEIVE_SIMILARITIES:
       return { list: action.similarities, isFetching: false };
 
     case CLEAR_SUGGESTION_RESULTS:
