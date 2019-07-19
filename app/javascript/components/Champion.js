@@ -46,15 +46,18 @@ class Champion extends React.Component {
             
           <div className="champion__info">
             <div className="champion__title">
-              {champion_info.name}
+              
+              <span className="champion__name">
+                {champion_info.name}
+              </span>
 
-              <div className="champion__similar-to">
+              <span className="champion__similar-to">
                 <span>(because you like</span>
                   <div className="similar-heroes">
                     <img src={`assets/dota_heroes/${similarHero.name}.png`} />
                   </div>
                 <span>)</span>
-              </div>
+              </span>
 
             </div>
 
