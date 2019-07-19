@@ -1,14 +1,29 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+
+
 class Home extends React.Component {
   render () {
     return (
       <main className="welcome-container">
 
         <div className="welcome">
-          <h1>From <img src="/assets/dota-logo.png" alt="Dota 2" className="dota-logo" /> to</h1>
-          <img src="/assets/league-logo.png" alt="League of Legends" className="league-logo" />
+          <h1>
+            From 
+            <LazyLoadImage
+              className="dota-logo"
+              title="Dota 2"
+              effect="opacity"
+              src="/assets/dota-logo.png" />
+            to
+          </h1>
+          <LazyLoadImage
+            className="league-logo"
+            title="League of Legends"
+            effect="opacity"
+            src="/assets/league-logo.png" />
           <h2>Get your champion suggestions based on your Dota heroes</h2>
 
           <Link to="/suggestion">

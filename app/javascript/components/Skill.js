@@ -1,9 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import 'react-lazy-load-image-component/src/effects/opacity.css'
-
 class Skill extends React.Component {
   render () {
     const { name, champion, type, description } = this.props
