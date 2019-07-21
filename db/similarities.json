@@ -101,6 +101,12 @@
         "role": true,
         "skills": true,
         "description": "You will not be able to initiate through 3 screens yet Tresh has powerful hook, cogs-like ultimate and despite being a support Tresh is much more dangerous then Clockwerk."
+      },
+      {
+        "name": "Jarvan IV",
+        "role": true,
+        "skills": true,
+        "description": "Jarvan can jump onto enemies and isolate them in arena."
       }
     ]
   },
@@ -309,6 +315,12 @@
     "name": "Mars",
     "similarities": [
       {
+        "name": "Pantheon",
+        "skills": true,
+        "theme": true,
+        "description": "Pantheon is legionnaire-themed champion with spear and AOE-ultimate."
+      },
+      {
         "name": "Jarvan IV",
         "skills": true,
         "description": "Jarvan has his own arena too."
@@ -408,12 +420,13 @@
         "description": "Jhin is long range Marksman who waves his skills and autoattacks similar to Morphling."
       },
       {
-        "name": "Draven",
+        "name": "Tristana",
         "role": true  
       },
       {
-        "name": "Tristana",
-        "role": true  
+        "name": "Neeko",
+        "theme": true,
+        "description": "Neeko can 'morph' herself and become an ally illusion."
       }
     ]
   },
@@ -919,6 +932,11 @@
         "name": "Hecarim",
         "role": true,
         "description": "You don't have to Reverse Polarity if your enemies are dead."
+      },
+      {
+        "name": "Orianna",
+        "skills": true,
+        "description": "Orianna's ultimate is similar to Reverse Polarity."
       }
     ]
   },
@@ -992,6 +1010,11 @@
         "name": "Kha'Zix",
         "role": true,
         "description": "If you like assassins you can find a lot of them in league, Kha'Zix is just one of them and he is very similar to Nyx."
+      },
+      {
+        "name": "Rek'Sai",
+        "skills": true,
+        "description": "She can create underground tunnels, stun and finish her enemies."
       }
     ]
   },
@@ -1124,6 +1147,18 @@
         "role": true,
         "skills": true,
         "description": "Miss Fortune is Marksman, not a mage, yet she has similar ultimate and... lifestyle."
+      },
+      {
+        "name": "Evelynn",
+        "role": true,
+        "theme": true,
+        "description": "Evelynn inflicts suffer and lust to her enemies."
+      },
+      {
+        "name": "Ahri",
+        "role": true,
+        "skills": true,
+        "description": "Ahri can charm her enemies, dash around and do a lot of magical damage."
       }
     ]
   },
@@ -1406,6 +1441,10 @@
       },
       {
         "name": "Irelia",
+        "theme": true
+      },
+      {
+        "name": "Xayah",
         "theme": true
       }
     ]
